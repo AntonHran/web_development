@@ -1,0 +1,17 @@
+2023-06-26 23:55:53,612 - [INFO] - __main__ -            main(44) - Start main function
+2023-06-26 23:55:53,612 - [INFO] - __main__ - main_instructions(22) - start main help function
+2023-06-26 23:56:02,570 - [INFO] - __main__ -         handler(36) - start handler function
+2023-06-26 23:56:02,571 - [DEBUG] - __main__ -         handler(37) - user choice = 7
+2023-06-26 23:56:02,571 - [ERROR] - __main__ -            main(58) - Error was occurred: 7
+2023-06-26 23:56:23,034 - [INFO] - __main__ -         handler(36) - start handler function
+2023-06-26 23:56:23,034 - [DEBUG] - __main__ -         handler(37) - user choice = 4
+2023-06-26 23:56:23,034 - [INFO] - __main__ - main_instructions(22) - start main help function
+2023-06-26 23:56:31,098 - [INFO] - __main__ -         handler(36) - start handler function
+2023-06-26 23:56:31,098 - [DEBUG] - __main__ -         handler(37) - user choice = 1
+2023-06-26 23:56:44,995 - [INFO] - __main__ -         handler(36) - start handler function
+2023-06-26 23:56:44,995 - [DEBUG] - __main__ -         handler(37) - user choice = 3
+2023-06-26 23:56:54,810 - [INFO] - __main__ -         handler(36) - start handler function
+2023-06-26 23:56:54,811 - [DEBUG] - __main__ -         handler(37) - user choice = 5
+2023-06-26 23:56:54,811 - [ERROR] - __main__ -            main(58) - Error was occurred: 5
+2023-06-27 00:21:21,576 - [INFO] - __main__ -            main(44) - Start main function
+2023-06-27 00:21:21,576 - [INFO] - __main__ - main_instructions(22) - start main help function
