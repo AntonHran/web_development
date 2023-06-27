@@ -15,3 +15,75 @@
 2023-06-26 23:56:54,811 - [ERROR] - __main__ -            main(58) - Error was occurred: 5
 2023-06-27 00:21:21,576 - [INFO] - __main__ -            main(44) - Start main function
 2023-06-27 00:21:21,576 - [INFO] - __main__ - main_instructions(22) - start main help function
+2023-06-27 12:13:18,660 - [INFO] - __main__ -            main(50) - Start main function
+2023-06-27 12:13:18,660 - [INFO] - __main__ - main_instructions(21) - start main help function
+2023-06-27 12:13:28,303 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-27 12:13:28,303 - [DEBUG] - __main__ -         handler(43) - user choice = 4
+2023-06-27 12:13:28,303 - [INFO] - __main__ - main_instructions(21) - start main help function
+2023-06-27 12:13:45,062 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-27 12:13:45,062 - [DEBUG] - __main__ -         handler(43) - user choice = 6
+2023-06-27 12:13:45,063 - [ERROR] - __main__ -            main(61) - Error was occurred: 6
+2023-06-27 12:13:51,670 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-27 12:13:51,670 - [DEBUG] - __main__ -         handler(43) - user choice = 1
+2023-06-27 12:13:51,670 - [INFO] - functions -        greeting(292) - Function greeting: you are in addressbook
+2023-06-27 12:13:51,670 - [INFO] - functions - read_info_from_file(33) - read from file
+2023-06-27 12:13:51,671 - [INFO] - functions -   show_commands(97) - Function show_commands
+2023-06-27 12:14:09,806 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 12:14:09,806 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 12:14:09,806 - [DEBUG] - functions -  command_parser(326) - command: show all
+2023-06-27 12:14:09,806 - [DEBUG] - functions -   make_function(341) - command: show all | argument: 
+2023-06-27 12:14:09,806 - [INFO] - functions -   show_contacts(84) - Function show_contacts
+2023-06-27 12:14:09,806 - [INFO] - functions - read_info_from_file(33) - read from file
+2023-06-27 12:14:28,485 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 12:14:28,486 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 12:14:28,486 - [DEBUG] - functions -  command_parser(326) - command: search 099
+2023-06-27 12:14:28,486 - [DEBUG] - functions -   make_function(341) - command: search | argument: 099
+2023-06-27 12:14:28,486 - [INFO] - functions -          search(71) - Function search
+2023-06-27 12:14:28,486 - [DEBUG] - functions -          search(72) - Keyword: 099
+2023-06-27 12:14:28,486 - [ERROR] - functions -      inner_func(17) - Exception raised: 'SearchException' object is not iterable
+2023-06-27 12:18:43,765 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 12:18:43,765 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 12:18:43,765 - [DEBUG] - functions -  command_parser(326) - command: show field ton
+2023-06-27 12:18:43,766 - [DEBUG] - functions -   make_function(341) - command: show field | argument: ton
+2023-06-27 12:18:43,766 - [INFO] - functions -      show_field(267) - Function show_field
+2023-06-27 12:18:43,766 - [DEBUG] - functions -      show_field(268) - Name: ton
+2023-06-27 12:19:01,357 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 12:19:01,358 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 12:19:01,358 - [DEBUG] - functions -  command_parser(326) - command: show
+2023-06-27 12:19:01,358 - [ERROR] - functions -   make_function(353) - Error raised: cannot unpack non-iterable NoneType object
+2023-06-27 12:19:18,669 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 12:19:18,669 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 12:19:18,669 - [DEBUG] - functions -  command_parser(326) - command: add phone Jess
+2023-06-27 12:19:18,669 - [DEBUG] - functions -   make_function(341) - command: add phone | argument: Jess
+2023-06-27 12:19:18,669 - [INFO] - functions - add_phone_number(130) - Function add_phone_number
+2023-06-27 12:19:18,669 - [DEBUG] - functions - add_phone_number(131) - Name: Jess
+2023-06-27 12:19:18,669 - [ERROR] - functions -      inner_func(17) - Exception raised: Name Jess does not exist.
+2023-06-27 12:19:33,605 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 12:19:33,605 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 12:19:33,605 - [DEBUG] - functions -  command_parser(326) - command: add phone Tony
+2023-06-27 12:19:33,605 - [DEBUG] - functions -   make_function(341) - command: add phone | argument: Tony
+2023-06-27 12:19:33,605 - [INFO] - functions - add_phone_number(130) - Function add_phone_number
+2023-06-27 12:19:33,605 - [DEBUG] - functions - add_phone_number(131) - Name: Tony
+2023-06-27 12:19:37,125 - [ERROR] - functions -      inner_func(17) - Exception raised: Wrong format - 1234 - of a phone number.
+2023-06-27 12:21:22,252 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 12:21:22,252 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 12:21:22,252 - [DEBUG] - functions -  command_parser(326) - command: add contact Tony
+2023-06-27 12:21:22,252 - [DEBUG] - functions -   make_function(341) - command: add contact | argument: Tony
+2023-06-27 12:21:22,252 - [INFO] - functions -     add_contact(41) - Function add_contact
+2023-06-27 12:21:22,252 - [DEBUG] - functions -     add_contact(42) - Name: Tony
+2023-06-27 12:21:22,252 - [ERROR] - functions -      inner_func(17) - Exception raised: Record with a such name Tony already exists.
+2023-06-27 12:21:42,461 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 12:21:42,461 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 12:21:42,461 - [DEBUG] - functions -  command_parser(326) - command: days to bd Tony
+2023-06-27 12:21:42,461 - [DEBUG] - functions -   make_function(341) - command: days to bd | argument: Tony
+2023-06-27 12:21:42,461 - [INFO] - functions - days_to_birthday(218) - Function days_to_birthday
+2023-06-27 12:21:42,461 - [DEBUG] - functions - days_to_birthday(219) - Name: Tony
+2023-06-27 12:21:42,461 - [ERROR] - functions -      inner_func(17) - Exception raised: Birthday does not exist for this contact.
+2023-06-27 12:22:03,044 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 12:22:03,044 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 12:22:03,044 - [DEBUG] - functions -  command_parser(326) - command: show field tony
+2023-06-27 12:22:03,044 - [DEBUG] - functions -   make_function(341) - command: show field | argument: tony
+2023-06-27 12:22:03,044 - [INFO] - functions -      show_field(267) - Function show_field
+2023-06-27 12:22:03,044 - [DEBUG] - functions -      show_field(268) - Name: tony
+2023-06-27 12:23:24,469 - [INFO] - functions -        farewell(280) - Function farewell: back to the main menu
+2023-06-27 12:23:24,469 - [INFO] - functions - write_info_from_class(27) - write into file
