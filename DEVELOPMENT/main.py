@@ -53,6 +53,7 @@ def main():
     while True:
         choice = int(input("\nPlease make your choice: "))
         if choice == 0:
+            logger_.info('Close the assistant')
             print("\nGood bye)")
             break
         try:
