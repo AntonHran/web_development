@@ -1,2 +1,9 @@
 2023-06-26 23:56:02,571 - [ERROR] - __main__ -            main(58) - Error was occurred: 7
 2023-06-26 23:56:54,811 - [ERROR] - __main__ -            main(58) - Error was occurred: 5
+2023-06-27 12:13:45,063 - [ERROR] - __main__ -            main(61) - Error was occurred: 6
+2023-06-27 12:14:28,486 - [ERROR] - functions -      inner_func(17) - Exception raised: 'SearchException' object is not iterable
+2023-06-27 12:19:01,358 - [ERROR] - functions -   make_function(353) - Error raised: cannot unpack non-iterable NoneType object
+2023-06-27 12:19:18,669 - [ERROR] - functions -      inner_func(17) - Exception raised: Name Jess does not exist.
+2023-06-27 12:19:37,125 - [ERROR] - functions -      inner_func(17) - Exception raised: Wrong format - 1234 - of a phone number.
+2023-06-27 12:21:22,252 - [ERROR] - functions -      inner_func(17) - Exception raised: Record with a such name Tony already exists.
+2023-06-27 12:21:42,461 - [ERROR] - functions -      inner_func(17) - Exception raised: Birthday does not exist for this contact.
