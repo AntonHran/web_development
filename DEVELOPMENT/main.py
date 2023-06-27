@@ -1,5 +1,4 @@
 import asyncio
-# import logging
 from functions import address_book_main
 from cleaner_functions import clean_folder_main
 from game import game_main
@@ -24,6 +23,13 @@ def main_instructions() -> None:
         print(command)
 
 
+def greeting_main() -> None:
+    print(
+        """\tWelcome to the CUI personal assistant.
+    Here I have my Main menu. It consists of three blocks: """
+    )
+
+
 main_functions = {
     1: address_book_main,
     2: clean_folder_main,
@@ -42,10 +48,7 @@ def handler(choice: int) -> None:
 
 def main():
     logger_.info('Start main function')
-    print(
-        """\tWelcome to the CUI personal assistant.
-    Here I have my Main menu. It consists of three blocks: """
-    )
+    greeting_main()
     main_instructions()
     while True:
         choice = int(input("\nPlease make your choice: "))
