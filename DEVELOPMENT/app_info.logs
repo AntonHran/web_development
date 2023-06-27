@@ -87,3 +87,154 @@
 2023-06-27 12:22:03,044 - [DEBUG] - functions -      show_field(268) - Name: tony
 2023-06-27 12:23:24,469 - [INFO] - functions -        farewell(280) - Function farewell: back to the main menu
 2023-06-27 12:23:24,469 - [INFO] - functions - write_info_from_class(27) - write into file
+2023-06-27 23:32:35,247 - [INFO] - __main__ -  get_words_list(26) - Function get_words_list: creating list of words
+2023-06-27 23:43:08,409 - [INFO] - __main__ -  get_words_list(26) - Function get_words_list: creating list of words
+2023-06-27 23:43:08,864 - [INFO] - __main__ -       game_main(122) - game module is started
+2023-06-27 23:43:08,865 - [INFO] - __main__ - instructions_game(116) - Function instructions_game
+2023-06-27 23:45:57,529 - [INFO] - __main__ -  get_words_list(26) - Function get_words_list: creating list of words
+2023-06-27 23:45:57,790 - [INFO] - __main__ -       game_main(122) - game module is started
+2023-06-27 23:45:57,790 - [INFO] - __main__ - instructions_game(116) - Function instructions_game
+2023-06-27 23:46:56,288 - [INFO] - __main__ -  get_words_list(26) - Function get_words_list: creating list of words
+2023-06-27 23:46:56,546 - [INFO] - __main__ -       game_main(122) - game module is started
+2023-06-27 23:46:56,546 - [INFO] - __main__ - instructions_game(116) - Function instructions_game
+2023-06-27 23:47:06,201 - [INFO] - __main__ -            game(40) - Start the game!
+2023-06-27 23:47:09,506 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: g
+2023-06-27 23:47:09,506 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:47:12,169 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: t
+2023-06-27 23:47:12,170 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:47:14,738 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: s
+2023-06-27 23:47:14,738 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:47:14,738 - [INFO] - __main__ -    show_changes(95) - Function show_changes
+2023-06-27 23:47:21,241 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: l
+2023-06-27 23:47:21,241 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:47:25,169 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: h
+2023-06-27 23:47:25,169 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:47:28,249 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: d
+2023-06-27 23:47:28,249 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:47:31,752 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: n
+2023-06-27 23:47:31,753 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:47:35,243 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: r
+2023-06-27 23:47:35,243 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:47:35,243 - [INFO] - __main__ -    show_changes(95) - Function show_changes
+2023-06-27 23:47:40,849 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: e
+2023-06-27 23:47:40,849 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:47:40,849 - [INFO] - __main__ -    show_changes(95) - Function show_changes
+2023-06-27 23:47:43,745 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: o
+2023-06-27 23:47:43,745 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:47:43,745 - [INFO] - __main__ -    show_changes(95) - Function show_changes
+2023-06-27 23:47:43,745 - [INFO] - __main__ -          result(81) - Function result
+2023-06-27 23:47:56,200 - [INFO] - __main__ -            game(40) - Start the game!
+2023-06-27 23:48:00,753 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: l
+2023-06-27 23:48:00,753 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:48:03,321 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: a
+2023-06-27 23:48:03,321 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:48:12,489 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: g
+2023-06-27 23:48:12,489 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:48:12,489 - [INFO] - __main__ -    show_changes(95) - Function show_changes
+2023-06-27 23:48:20,824 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: r
+2023-06-27 23:48:20,824 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:48:35,369 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: u
+2023-06-27 23:48:35,369 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:49:06,560 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: o
+2023-06-27 23:49:06,561 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:49:14,785 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: i
+2023-06-27 23:49:14,785 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:49:14,785 - [INFO] - __main__ -    show_changes(95) - Function show_changes
+2023-06-27 23:49:23,016 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: e
+2023-06-27 23:49:23,017 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:49:23,017 - [INFO] - __main__ -    show_changes(95) - Function show_changes
+2023-06-27 23:49:43,064 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: n
+2023-06-27 23:49:43,064 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:49:43,064 - [INFO] - __main__ -    show_changes(95) - Function show_changes
+2023-06-27 23:50:10,344 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: m
+2023-06-27 23:50:10,345 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:50:16,104 - [INFO] - __main__ - check_enter_by_error(104) - checking enter values: t
+2023-06-27 23:50:16,105 - [INFO] - __main__ -    check_letter(67) - checking entered letter
+2023-06-27 23:50:16,105 - [INFO] - __main__ -    show_changes(95) - Function show_changes
+2023-06-27 23:50:16,105 - [INFO] - __main__ -          result(81) - Function result
+2023-06-27 23:50:35,625 - [INFO] - __main__ - instructions_game(116) - Function instructions_game
+2023-06-27 23:54:46,710 - [INFO] - game -  get_words_list(25) - Function get_words_list: creating list of words
+2023-06-27 23:54:46,986 - [INFO] - game -       game_main(105) - game module is started
+2023-06-27 23:54:46,986 - [INFO] - game - instructions_game(99) - Function instructions_game
+2023-06-27 23:55:24,426 - [INFO] - game -  get_words_list(25) - Function get_words_list: creating list of words
+2023-06-27 23:55:24,699 - [INFO] - __main__ -            main(50) - Start main function
+2023-06-27 23:55:24,699 - [INFO] - __main__ - main_instructions(21) - start main help function
+2023-06-27 23:55:29,857 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-27 23:55:29,857 - [DEBUG] - __main__ -         handler(43) - user choice = 1
+2023-06-27 23:55:29,857 - [INFO] - functions - address_book_main(358) - Function address_book_main
+2023-06-27 23:55:29,857 - [INFO] - functions -        greeting(292) - Function greeting: you are in addressbook
+2023-06-27 23:55:29,857 - [INFO] - functions - read_info_from_file(33) - read from file
+2023-06-27 23:55:29,858 - [INFO] - functions -   show_commands(97) - Function show_commands
+2023-06-27 23:55:35,191 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 23:55:35,191 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 23:55:35,191 - [DEBUG] - functions -  command_parser(326) - command: show all
+2023-06-27 23:55:35,192 - [DEBUG] - functions -   make_function(341) - command: show all | argument: 
+2023-06-27 23:55:35,192 - [INFO] - functions -   show_contacts(84) - Function show_contacts
+2023-06-27 23:55:35,192 - [INFO] - functions - read_info_from_file(33) - read from file
+2023-06-27 23:56:04,000 - [INFO] - functions -   make_function(337) - Function make_function
+2023-06-27 23:56:04,000 - [INFO] - functions -  command_parser(325) - Parse the command
+2023-06-27 23:56:04,000 - [DEBUG] - functions -  command_parser(326) - command: show field Tony
+2023-06-27 23:56:04,001 - [DEBUG] - functions -   make_function(341) - command: show field | argument: Tony
+2023-06-27 23:56:04,001 - [INFO] - functions -      show_field(267) - Function show_field
+2023-06-27 23:56:04,001 - [DEBUG] - functions -      show_field(268) - Name: Tony
+2023-06-27 23:56:32,703 - [INFO] - functions -        farewell(280) - Function farewell: back to the main menu
+2023-06-27 23:56:32,703 - [INFO] - functions - write_info_from_class(27) - write into file
+2023-06-27 23:56:37,311 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-27 23:56:37,311 - [DEBUG] - __main__ -         handler(43) - user choice = 2
+2023-06-27 23:56:37,315 - [INFO] - cleaner_functions - clean_folder_main(160) - Function clean_folder_main
+2023-06-27 23:56:37,315 - [INFO] - cleaner_functions -    instructions(148) - Function instructions
+2023-06-27 23:57:24,151 - [INFO] - cleaner_functions -    instructions(148) - Function instructions
+2023-06-27 23:57:33,583 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-27 23:57:33,584 - [DEBUG] - __main__ -         handler(43) - user choice = 3
+2023-06-27 23:57:33,584 - [INFO] - game -       game_main(105) - game module is started
+2023-06-27 23:57:33,584 - [INFO] - game - instructions_game(99) - Function instructions_game
+2023-06-27 23:57:40,169 - [INFO] - game -            game(38) - Start the game!
+2023-06-27 23:57:43,158 - [INFO] - game - check_enter_by_error(87) - checking enter values: o
+2023-06-27 23:57:43,160 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:57:46,176 - [INFO] - game - check_enter_by_error(87) - checking enter values: f
+2023-06-27 23:57:46,176 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:57:48,391 - [INFO] - game - check_enter_by_error(87) - checking enter values: l
+2023-06-27 23:57:48,391 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:57:50,840 - [INFO] - game - check_enter_by_error(87) - checking enter values: a
+2023-06-27 23:57:50,840 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:57:50,840 - [INFO] - game -    show_changes(78) - Function show_changes
+2023-06-27 23:57:57,383 - [INFO] - game - check_enter_by_error(87) - checking enter values: r
+2023-06-27 23:57:57,383 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:58:04,758 - [INFO] - game - check_enter_by_error(87) - checking enter values: m
+2023-06-27 23:58:04,758 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:58:08,528 - [INFO] - game - check_enter_by_error(87) - checking enter values: c
+2023-06-27 23:58:08,528 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:58:13,976 - [INFO] - game - check_enter_by_error(87) - checking enter values: g
+2023-06-27 23:58:13,976 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:59:03,215 - [INFO] - game - check_enter_by_error(87) - checking enter values: h
+2023-06-27 23:59:03,215 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:59:03,215 - [INFO] - game -          result(68) - Function result
+2023-06-27 23:59:13,582 - [INFO] - game -            game(38) - Start the game!
+2023-06-27 23:59:16,822 - [INFO] - game - check_enter_by_error(87) - checking enter values: f
+2023-06-27 23:59:16,823 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:59:20,487 - [INFO] - game - check_enter_by_error(87) - checking enter values: d
+2023-06-27 23:59:20,487 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:59:23,007 - [INFO] - game - check_enter_by_error(87) - checking enter values: s
+2023-06-27 23:59:23,008 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:59:25,631 - [INFO] - game - check_enter_by_error(87) - checking enter values: k
+2023-06-27 23:59:25,631 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:59:28,142 - [INFO] - game - check_enter_by_error(87) - checking enter values: l
+2023-06-27 23:59:28,143 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:59:51,598 - [INFO] - game - check_enter_by_error(87) - checking enter values: f
+2023-06-27 23:59:51,598 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:59:54,846 - [INFO] - game - check_enter_by_error(87) - checking enter values: w
+2023-06-27 23:59:54,846 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:59:59,495 - [INFO] - game - check_enter_by_error(87) - checking enter values: t
+2023-06-27 23:59:59,495 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-27 23:59:59,495 - [INFO] - game -    show_changes(78) - Function show_changes
+2023-06-28 00:00:09,495 - [INFO] - game - check_enter_by_error(87) - checking enter values: h
+2023-06-28 00:00:09,495 - [INFO] - game -    check_letter(54) - checking entered letter
+2023-06-28 00:00:09,495 - [INFO] - game -          result(68) - Function result
+2023-06-28 00:00:29,030 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-28 00:00:29,031 - [DEBUG] - __main__ -         handler(43) - user choice = 2
+2023-06-28 00:00:29,032 - [INFO] - cleaner_functions - clean_folder_main(160) - Function clean_folder_main
+2023-06-28 00:00:29,032 - [INFO] - cleaner_functions -    instructions(148) - Function instructions
+2023-06-28 00:00:35,694 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-28 00:00:35,694 - [DEBUG] - __main__ -         handler(43) - user choice = 3
+2023-06-28 00:00:35,694 - [INFO] - game -       game_main(105) - game module is started
+2023-06-28 00:00:35,694 - [INFO] - game - instructions_game(99) - Function instructions_game
