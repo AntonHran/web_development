@@ -355,6 +355,7 @@ def make_function(text: str) -> None:
 
 
 def address_book_main():
+    logger_.info('Function address_book_main')
     greeting(contacts)
     show_commands(commands_addressbook)
     while True:
