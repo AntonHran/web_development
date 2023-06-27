@@ -1,8 +1,11 @@
 import re
-from classes import AddressBook, Record, Name, contacts, output_, commands_addressbook, TerminalView, TerminalPrint
 import pickle
-from functools import wraps
 import collections
+from classes import AddressBook, Record, Name, contacts, output_, commands_addressbook, TerminalView, TerminalPrint
+from functools import wraps
+from logger import get_logging
+
+logger_ = get_logging(__name__)
 
 
 def input_error(func):
@@ -11,19 +14,23 @@ def input_error(func):
         try:
             return func(*args) if args else func()
         except Exception as exc:
+            logger_.error(f'Exception raised: {exc}')
             print(exc)
         except (KeyError, ValueError, IndexError, TypeError) as error:
+            logger_.error(f'Error raised: {error}')
             print(f'''Error: {error}. Please check the accordance of the entered data to the requirements.
 And also a correctness of the entered name or/and phone number. And, of course, their existence.''')
     return inner_func
 
 
 def write_info_from_class(obj: AddressBook) -> None:
+    logger_.info('write into file')
     with open('contacts.bin', 'wb') as fr:
         pickle.dump(obj, fr)
 
 
 def read_info_from_file() -> AddressBook:
+    logger_.info('read from file')
     with open('contacts.bin', 'rb') as fr:
         contacts_from_file: AddressBook = pickle.load(fr)
     return contacts_from_file
@@ -31,6 +38,8 @@ def read_info_from_file() -> AddressBook:
 
 @input_error
 def add_contact(name: str, contact_book: AddressBook) -> None:
+    logger_.info('Function add_contact')
+    logger_.debug(f'Name: {name}')
     name: Name = Name(name)
     record: Record = Record(name)
     contact_book.add_record(record)
@@ -46,6 +55,8 @@ commands_addressbook.add_command(add_contact_comm)
 
 @input_error
 def delete_contact(name: str, contact: AddressBook) -> None:
+    logger_.info('Function delete_contact')
+    logger_.debug(f'Name: {name}')
     contact.delete_record(name)
     write_info_from_class(contact)
 
@@ -57,6 +68,8 @@ commands_addressbook.add_command(delete_contact_comm)
 
 @input_error
 def search(keyword: str, contact: AddressBook, output: TerminalPrint) -> None:
+    logger_.info('Function search')
+    logger_.debug(f'Keyword: {keyword}')
     result: list = contact.search_by_keyword(keyword)
     [res.display(output) for res in result]
 
@@ -68,6 +81,7 @@ commands_addressbook.add_command(search_comm)
 
 
 def show_contacts(output: TerminalPrint, pages: int = 2) -> None:
+    logger_.info('Function show_contacts')
     contacts_download = read_info_from_file()
     for record in contacts_download.iterator(pages):
         [field.display(output) for field in record]
@@ -80,6 +94,7 @@ commands_addressbook.add_command(show_contacts_comm)
 
 
 def show_commands(commands: TerminalView) -> None:
+    logger_.info('Function show_commands')
     print('\n\tGeneral commands for all written contacts:\n'
           '\tNames, phone numbers, emails and other parameters have to be written without brackets <...>')
     for command in commands.display_commands():
@@ -93,10 +108,13 @@ commands_addressbook.add_command(show_commands_comm)
 
 @input_error
 def change_name(name: str, contact: AddressBook) -> None:
+    logger_.info('Function change_name')
+    logger_.debug(f'Name: {name}')
     name: str = contact.search_by_name(name)
     contact_data: Record = contact.data[name]
     contact.delete_record(name)
     new_name: str = input('Please enter a new name for the contact: ')
+    logger_.debug(f'Name: {new_name}')
     contact_data.name.set_value(new_name)
     contact.add_record(contact_data)
     write_info_from_class(contact)
@@ -109,6 +127,8 @@ commands_addressbook.add_command(change_name_comm)
 
 @input_error
 def add_phone_number(name: str, contact: AddressBook) -> None:
+    logger_.info('Function add_phone_number')
+    logger_.debug(f'Name: {name}')
     name = contact.search_by_name(name)
     number: str = input('Please enter a phone number according to a phone pattern: +<code of a country>XXXXXXXXX '
                         'or <operator code>XXXXXXX: ')
@@ -128,6 +148,8 @@ commands_addressbook.add_command(add_phone_number_comm)
 
 @input_error
 def delete_phone_number(name: str, contact: AddressBook) -> None:
+    logger_.info('Function delete_phone_number')
+    logger_.debug(f'Name: {name}')
     name = contact.search_by_name(name)
     number: str = input('Please enter a number to delete: ')
     contact.data[name].phone.delete_phone_number(number)
@@ -141,6 +163,8 @@ commands_addressbook.add_command(delete_phone_number_comm)
 
 @input_error
 def change_phone_number(name: str, contact: AddressBook) -> None:
+    logger_.info('Function change_phone_number')
+    logger_.debug(f'Name: {name}')
     name = contact.search_by_name(name)
     phone_num: str = input('Enter <an old phone number>-<new phone number> for the contact: ')
     old, new = phone_num.strip().split('-')
@@ -156,6 +180,8 @@ commands_addressbook.add_command(change_phone_number_comm)
 
 @input_error
 def change_email(name: str, contact: AddressBook) -> None:
+    logger_.info('Function change_email')
+    logger_.debug(f'Name: {name}')
     name = contact.search_by_name(name)
     email: str = input('Please enter an email for the contact: ')
     contact.data[name].email.set_value(email)
@@ -171,6 +197,8 @@ commands_addressbook.add_command(change_email_comm)
 
 @input_error
 def change_birthdate(name: str, contact: AddressBook) -> None:
+    logger_.info('Function change_birthdate')
+    logger_.debug(f'Name: {name}')
     name = contact.search_by_name(name)
     birthdate: str = input('Please enter a date of birth for the contact according to pattern YYYY-MM-DD: ')
     contact.data[name].bd.set_value(birthdate)
@@ -187,6 +215,8 @@ commands_addressbook.add_command(change_birthdate_comm)
 
 @input_error
 def days_to_birthday(name: str, contact: AddressBook) -> None:
+    logger_.info('Function days_to_birthday')
+    logger_.debug(f'Name: {name}')
     name = contact.search_by_name(name)
     print(f'Number days to birthday for {name} is {contact.data[name].bd.days_to_birthday()} days.')
 
@@ -198,6 +228,8 @@ commands_addressbook.add_command(days_to_birthday_comm)
 
 @input_error
 def change_status(name: str, contact: AddressBook) -> None:
+    logger_.info('Function change_status')
+    logger_.debug(f'Name: {name}')
     name = contact.search_by_name(name)
     status: str = input('Please enter one of statuses to this contact: '
                         'Friend, Family, Co-Worker, Special. Or leave it empty: ')
@@ -215,6 +247,8 @@ commands_addressbook.add_command(change_status_comm)
 
 @input_error
 def add_note(name: str, contact: AddressBook) -> None:
+    logger_.info('Function add_note')
+    logger_.debug(f'Name: {name}')
     name = contact.search_by_name(name)
     note: str = input('Please enter a note for the contact: ')
     contact.data[name].note.set_value(note)
@@ -230,6 +264,8 @@ commands_addressbook.add_command(add_note_comm)
 
 @input_error
 def show_field(name: str, contact: AddressBook, output: TerminalView) -> None:
+    logger_.info('Function show_field')
+    logger_.debug(f'Name: {name}')
     name_check = contact.search_by_name(name)
     field: str = input('Please type a field you want to see for this contact: ')
     contact.data[name_check].display_field(field, output)
@@ -241,6 +277,7 @@ commands_addressbook.add_command(show_field_comm)
 
 
 def farewell(contact: AddressBook) -> None:
+    logger_.info('Function farewell: back to the main menu')
     write_info_from_class(contact)
     print('All changes saved successfully.\n'
           '\nYou returned to the main Menu.')
@@ -252,12 +289,14 @@ commands_addressbook.add_command(farewell_comm)
 
 
 def greeting(contact: AddressBook):
+    logger_.info('Function greeting: you are in addressbook')
     print('\n\tNow you are in your personal addressbook.\n'
           '\tI can help you with adding, changing, showing and storing all contacts and data connected with them.')
     try:
         contact.data.clear()
         [contact.add_record(value) for value in read_info_from_file().values()]
-    except (FileExistsError, FileNotFoundError):
+    except (FileExistsError, FileNotFoundError) as error:
+        logger_.error(f'Error raised: {error}')
         print('There are not records yet. Your addressbook is empty.')
 
 
@@ -283,6 +322,8 @@ methods = {'add contact': Function(add_contact, AddressBook, '', ''),
 
 @input_error
 def command_parser(command: str) -> tuple:
+    logger_.info('Parse the command')
+    logger_.debug(f'command: {command}')
     for func in methods:
         if re.search(func, command, flags=re.I):
             return func, re.sub(func, '', command, flags=re.I).strip()
@@ -293,9 +334,11 @@ def handler(function_name: str) -> collections.namedtuple:  # Tuple[Callable, No
 
 
 def make_function(text: str) -> None:
+    logger_.info('Function make_function')
     try:
         command, argument = command_parser(text)
         func: collections.namedtuple = handler(command)
+        logger_.debug(f'command: {command} | argument: {argument}')
         if argument and func.records and func.terminal_output:
             func.function(argument, contacts, output_)
         elif argument and func.records and not func.terminal_output:
@@ -306,8 +349,8 @@ def make_function(text: str) -> None:
             func.function(output_)
         elif not argument and func.terminal_commands and not func.records:
             func.function(commands_addressbook)
-
-    except (TypeError, KeyError):
+    except (TypeError, KeyError) as error:
+        logger_.error(f'Error raised: {error}')
         print('I do not understand what you want to do. Please look at the commands.')
 
 
