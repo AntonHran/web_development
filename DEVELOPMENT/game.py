@@ -1,6 +1,7 @@
 import random
 import re
 import requests
+from typing import Callable
 from illustration_to_game import draw
 from classes import TerminalView
 from logger import get_logging
@@ -85,7 +86,7 @@ def show_changes(wrd: str, let: str, str_: str) -> str:
 
 def check_enter_by_error(let: str) -> str:
     logger_.info(f'checking enter values: {let}')
-    pattern = re.compile(r'\b[a-z]\b')
+    pattern = re.compile(r'[a-z]')
     matches = re.search(pattern, let)
     if matches:
         return let
@@ -101,23 +102,34 @@ def instructions_game() -> None:
         print(command)
 
 
+def greeting_game() -> None:
+    print('''\n\tH A N G M A N
+        This is entertainment module with a well known game - hangman. So are you ready to gues a word?''')
+
+
+def show_score() -> None:
+    logger_.info('Function show_score')
+    print(f'\nYou won: {score["win"]} times.\nYou lost: {score["loose"]} times.')
+
+
+functions = {'play': game, 'score': show_score, 'help': instructions_game}
+
+
+def handler(command: str) -> Callable:
+    try:
+        return functions[command]()
+    except KeyError as error:
+        logger_.error(f'Error was occurred: {error}')
+        print('I do not understand what you want. Please look at instructions.')
+
+
 def game_main():
     logger_.info('game module is started')
-    print('''\n\tH A N G M A N
-    This is entertainment module with a well known game - hangman. So are you ready to gues a word?''')
+    greeting_game()
     instructions_game()
-    score['win'] = 0
-    score['loose'] = 0
     while True:
         answer = input('\nMake your choice: ')
-        if answer == 'play':
-            game()
-        elif answer == 'score':
-            print(f'\nYou won: {score["win"]} times.\nYou lost: {score["loose"]} times.')
-        elif answer == 'help':
-            instructions_game()
-        elif answer == 'back':
+        if answer == 'back':
             print('\nYou returned to the main Menu.')
             break
-        else:
-            print('I do not understand, please see instructions.')
+        handler(answer)
