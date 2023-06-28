@@ -238,3 +238,267 @@
 2023-06-28 00:00:35,694 - [DEBUG] - __main__ -         handler(43) - user choice = 3
 2023-06-28 00:00:35,694 - [INFO] - game -       game_main(105) - game module is started
 2023-06-28 00:00:35,694 - [INFO] - game - instructions_game(99) - Function instructions_game
+2023-06-28 18:40:58,484 - [INFO] - game -  get_words_list(26) - Function get_words_list: creating list of words
+2023-06-28 18:40:58,977 - [INFO] - __main__ -            main(50) - Start main function
+2023-06-28 18:40:58,977 - [INFO] - __main__ - main_instructions(21) - start main help function
+2023-06-28 18:41:10,272 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-28 18:41:10,272 - [DEBUG] - __main__ -         handler(43) - user choice = 2
+2023-06-28 18:41:10,275 - [INFO] - cleaner_functions - clean_folder_main(189) - Function clean_folder_main
+2023-06-28 18:41:10,275 - [INFO] - cleaner_functions - greeting_cleaner(183) - Function greeting_cleaner
+2023-06-28 18:41:10,275 - [INFO] - cleaner_functions -    instructions(153) - Function instructions
+2023-06-28 18:41:40,080 - [INFO] - cleaner_functions -    instructions(153) - Function instructions
+2023-06-28 18:42:04,726 - [ERROR] - cleaner_functions -         handler(178) - Error occurred: 'D:\\\\GOIT\\\\trash'
+2023-06-28 18:43:20,803 - [ERROR] - cleaner_functions -         handler(178) - Error occurred: 'D://GOIT//trash'
+2023-06-28 18:46:01,077 - [INFO] - game -  get_words_list(26) - Function get_words_list: creating list of words
+2023-06-28 18:46:01,492 - [INFO] - __main__ -            main(50) - Start main function
+2023-06-28 18:46:01,492 - [INFO] - __main__ - main_instructions(21) - start main help function
+2023-06-28 18:46:05,173 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-28 18:46:05,173 - [DEBUG] - __main__ -         handler(43) - user choice = 2
+2023-06-28 18:46:05,174 - [INFO] - cleaner_functions - clean_folder_main(189) - Function clean_folder_main
+2023-06-28 18:46:05,174 - [INFO] - cleaner_functions - greeting_cleaner(183) - Function greeting_cleaner
+2023-06-28 18:46:05,174 - [INFO] - cleaner_functions -    instructions(153) - Function instructions
+2023-06-28 18:46:11,510 - [INFO] - cleaner_functions -    instructions(153) - Function instructions
+2023-06-28 18:46:40,533 - [ERROR] - cleaner_functions -         handler(178) - Error occurred: 'D:\\\\GOIT\\\\trash'
+2023-06-28 18:47:49,862 - [INFO] - cleaner_functions -      check_path(144) - Function check_path
+2023-06-28 18:47:49,863 - [INFO] - cleaner_functions - make_directories(137) - Function make_directories
+2023-06-28 18:47:49,870 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:47:49,903 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:47:49,905 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:47:49,906 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:50:45,319 - [INFO] - game -  get_words_list(26) - Function get_words_list: creating list of words
+2023-06-28 18:50:45,618 - [INFO] - __main__ -            main(50) - Start main function
+2023-06-28 18:50:45,618 - [INFO] - __main__ - main_instructions(21) - start main help function
+2023-06-28 18:50:56,700 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-28 18:50:56,701 - [DEBUG] - __main__ -         handler(43) - user choice = 2
+2023-06-28 18:50:56,702 - [INFO] - cleaner_functions - clean_folder_main(189) - Function clean_folder_main
+2023-06-28 18:50:56,702 - [INFO] - cleaner_functions - greeting_cleaner(183) - Function greeting_cleaner
+2023-06-28 18:50:56,702 - [INFO] - cleaner_functions -    instructions(153) - Function instructions
+2023-06-28 18:51:11,356 - [ERROR] - cleaner_functions -         handler(178) - Error occurred: 'D:GOIT\\trash'
+2023-06-28 18:51:31,693 - [INFO] - cleaner_functions -      check_path(144) - Function check_path
+2023-06-28 18:51:31,694 - [INFO] - cleaner_functions - make_directories(137) - Function make_directories
+2023-06-28 18:51:31,698 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:51:31,713 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:51:31,714 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:51:31,714 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:51:31,714 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:51:31,714 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:51:31,717 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:51:31,724 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:51:31,725 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:51:31,725 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:51:31,725 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:51:31,726 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:51:31,740 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:51:31,741 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:51:31,741 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:51:31,741 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:51:31,741 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:51:31,743 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:51:31,759 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:51:31,760 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:51:31,760 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:51:31,760 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:51:31,760 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:51:31,762 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:51:31,771 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:51:31,772 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:51:31,772 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:51:31,772 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:51:31,774 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:51:31,787 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:51:31,787 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:51:31,787 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:51:31,787 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:51:31,789 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:51:31,804 - [INFO] - cleaner_functions -     after_check(120) - Sorting was finished. After sorting checking is started
+2023-06-28 18:51:31,804 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:51:31,805 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:51:31,806 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:51:31,811 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:51:31,826 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:51:31,827 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:51:31,828 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:51:31,829 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:51:31,830 - [ERROR] - cleaner_functions -         handler(178) - Error occurred: 'D:\\GOIT\\trash'
+2023-06-28 18:54:45,960 - [INFO] - game -  get_words_list(26) - Function get_words_list: creating list of words
+2023-06-28 18:54:46,303 - [INFO] - __main__ -            main(50) - Start main function
+2023-06-28 18:54:46,304 - [INFO] - __main__ - main_instructions(21) - start main help function
+2023-06-28 18:54:48,749 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-28 18:54:48,749 - [DEBUG] - __main__ -         handler(43) - user choice = 3
+2023-06-28 18:54:48,749 - [INFO] - game -       game_main(127) - game module is started
+2023-06-28 18:54:48,749 - [INFO] - game - instructions_game(100) - Function instructions_game
+2023-06-28 18:54:53,188 - [INFO] - game -            game(39) - Start the game!
+2023-06-28 18:54:56,883 - [INFO] - game - check_enter_by_error(88) - checking enter values: w
+2023-06-28 18:54:56,884 - [INFO] - game -    check_letter(55) - checking entered letter
+2023-06-28 18:54:59,699 - [INFO] - game - check_enter_by_error(88) - checking enter values: a
+2023-06-28 18:54:59,699 - [INFO] - game -    check_letter(55) - checking entered letter
+2023-06-28 18:55:11,659 - [INFO] - game - check_enter_by_error(88) - checking enter values: o
+2023-06-28 18:55:11,659 - [INFO] - game -    check_letter(55) - checking entered letter
+2023-06-28 18:55:14,988 - [INFO] - game - check_enter_by_error(88) - checking enter values: p
+2023-06-28 18:55:14,988 - [INFO] - game -    check_letter(55) - checking entered letter
+2023-06-28 18:55:18,436 - [INFO] - game - check_enter_by_error(88) - checking enter values: t
+2023-06-28 18:55:18,436 - [INFO] - game -    check_letter(55) - checking entered letter
+2023-06-28 18:55:22,468 - [INFO] - game - check_enter_by_error(88) - checking enter values: o
+2023-06-28 18:55:22,468 - [INFO] - game -    check_letter(55) - checking entered letter
+2023-06-28 18:55:31,660 - [INFO] - game - check_enter_by_error(88) - checking enter values: s
+2023-06-28 18:55:31,660 - [INFO] - game -    check_letter(55) - checking entered letter
+2023-06-28 18:55:42,028 - [INFO] - game - check_enter_by_error(88) - checking enter values: d
+2023-06-28 18:55:42,028 - [INFO] - game -    check_letter(55) - checking entered letter
+2023-06-28 18:55:42,028 - [INFO] - game -          result(69) - Function result
+2023-06-28 18:55:53,243 - [INFO] - game -      show_score(111) - Function show_score
+2023-06-28 18:56:24,379 - [INFO] - __main__ -            main(56) - Close the assistant
+2023-06-28 18:56:58,295 - [INFO] - game -  get_words_list(26) - Function get_words_list: creating list of words
+2023-06-28 18:56:58,598 - [INFO] - __main__ -            main(50) - Start main function
+2023-06-28 18:56:58,598 - [INFO] - __main__ - main_instructions(21) - start main help function
+2023-06-28 18:57:01,603 - [INFO] - __main__ -         handler(42) - start handler function
+2023-06-28 18:57:01,603 - [DEBUG] - __main__ -         handler(43) - user choice = 2
+2023-06-28 18:57:01,604 - [INFO] - cleaner_functions - clean_folder_main(190) - Function clean_folder_main
+2023-06-28 18:57:01,604 - [INFO] - cleaner_functions - greeting_cleaner(184) - Function greeting_cleaner
+2023-06-28 18:57:01,604 - [INFO] - cleaner_functions -    instructions(153) - Function instructions
+2023-06-28 18:57:59,883 - [INFO] - cleaner_functions -      check_path(144) - Function check_path
+2023-06-28 18:57:59,884 - [INFO] - cleaner_functions - make_directories(137) - Function make_directories
+2023-06-28 18:57:59,891 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:57:59,898 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:57:59,899 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:57:59,899 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:57:59,899 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:57:59,899 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:57:59,900 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:57:59,905 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:57:59,905 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:57:59,906 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:57:59,906 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:57:59,907 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:57:59,921 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:57:59,921 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:57:59,921 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:57:59,922 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:57:59,924 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:57:59,938 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:57:59,938 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:57:59,938 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:57:59,938 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:57:59,939 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:57:59,952 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:57:59,953 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:57:59,953 - [INFO] - cleaner_functions -         move_to(52) - Function move_to
+2023-06-28 18:57:59,953 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:57:59,955 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:57:59,968 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:57:59,968 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:57:59,969 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:57:59,969 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:57:59,970 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:57:59,984 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:57:59,985 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:57:59,985 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:57:59,985 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:57:59,985 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:57:59,986 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,000 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,000 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,000 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,000 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,002 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,014 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,016 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,016 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,016 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,018 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,031 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,031 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,031 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,031 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,033 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,046 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,047 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,047 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,047 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,048 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,061 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,061 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,061 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,062 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,063 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,078 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory
+2023-06-28 18:58:00,079 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,079 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,079 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,079 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,081 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,091 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,092 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,092 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,092 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,093 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,107 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,107 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,107 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,108 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,110 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,123 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,123 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,124 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,124 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,125 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,140 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,140 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,140 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,140 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,141 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,155 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,155 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,155 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,156 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,157 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,171 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,171 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,172 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,172 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,173 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,186 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,186 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,186 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,186 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,188 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,203 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,203 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,203 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,203 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,205 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,218 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,219 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,219 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,219 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,220 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,234 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,234 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,235 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,235 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,236 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,249 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,250 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,250 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,250 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,251 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,265 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,265 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,265 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,265 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,267 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,282 - [INFO] - cleaner_functions -    process_file(43) - Function process_file
+2023-06-28 18:58:00,282 - [INFO] - cleaner_functions -     handle_func(112) - Function handle_func
+2023-06-28 18:58:00,282 - [INFO] - cleaner_functions -   move_to_other(79) - Function move_to_other
+2023-06-28 18:58:00,282 - [INFO] - cleaner_functions -          rename(86) - Function rename
+2023-06-28 18:58:00,283 - [INFO] - cleaner_functions -    check_folder(98) - Function check_folder
+2023-06-28 18:58:00,298 - [INFO] - cleaner_functions -     after_check(120) - Sorting was finished. After sorting checking is started
+2023-06-28 18:58:00,298 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:58:00,299 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:58:00,301 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:58:00,309 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:58:00,310 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:58:00,312 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:58:00,313 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:58:00,313 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
+2023-06-28 18:58:22,987 - [INFO] - cleaner_functions -    instructions(153) - Function instructions
+2023-06-28 18:59:12,842 - [INFO] - __main__ -            main(56) - Close the assistant
