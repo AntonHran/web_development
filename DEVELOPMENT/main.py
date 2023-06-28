@@ -24,6 +24,7 @@ def main_instructions() -> None:
 
 
 def greeting_main() -> None:
+    logger_.info('Start the assistant!!!')
     print(
         """\tWelcome to the CUI personal assistant.
     Here I have my Main menu. It consists of three blocks: """
@@ -53,7 +54,7 @@ def main():
     while True:
         choice = int(input("\nPlease make your choice: "))
         if choice == 0:
-            logger_.info('Close the assistant')
+            logger_.info('Close the assistant!!!')
             print("\nGood bye)")
             break
         try:
