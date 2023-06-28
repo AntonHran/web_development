@@ -20,7 +20,7 @@ cleaner_commands_comm = '''
     To back to main menu, type: <back>
     To see instructions of this module, type: <help>'''
 cleaner_commands.add_command(cleaner_commands_comm)
-root = ''
+root: str = ''
 
 
 async def process_directory(directory) -> None:
@@ -48,10 +48,7 @@ async def process_file(file_path, file) -> None:
     await asyncio.sleep(0.001)
 
 
-async def move_to(old_path: str, new_path: str, file_name: str, ext: str) -> None:
-    logger_.info('Function move_to')
-    new_name: str = rename(file_name)
-    await aiofiles.os.rename(f'{old_path}\\{file_name}.{ext}', f'{old_path}\\{new_name}.{ext}')
+async def deal_with_copies(old_path: str, new_path: str, new_name: str, ext: str) -> None:
     i: int = 0
     while True:
         if f'{new_name}.{ext}' not in os.listdir(new_path):
@@ -62,6 +59,13 @@ async def move_to(old_path: str, new_path: str, file_name: str, ext: str) -> Non
             file_name = new_name
             new_name = f'{file_name}_{i}'
             await aiofiles.os.rename(f'{old_path}\\{file_name}.{ext}', f'{old_path}\\{new_name}.{ext}')
+
+
+async def move_to(old_path: str, new_path: str, file_name: str, ext: str) -> None:
+    logger_.info('Function move_to')
+    new_name: str = rename(file_name)
+    await aiofiles.os.rename(f'{old_path}\\{file_name}.{ext}', f'{old_path}\\{new_name}.{ext}')
+    await deal_with_copies(old_path, new_path, new_name, ext)
 
 
 async def move_to_archive(old_path: str, new_path: str, file_name: str, ext: str) -> None:
@@ -79,7 +83,7 @@ async def move_to_other(old_path: str, new_path: str, file_name: str, ext: str) 
     logger_.info('Function move_to_other')
     new_name: str = rename(file_name)
     await aiofiles.os.rename(f'{old_path}\\{file_name}.{ext}', f'{old_path}\\{new_name}.{ext}')
-    await aiofiles.os.replace(f'{old_path}\\{file_name}.{ext}', f'{new_path}\\{new_name}.{ext}')
+    await deal_with_copies(old_path, new_path, new_name, ext)
 
 
 def rename(file_name: str) -> str:
@@ -117,7 +121,7 @@ def handle_func(file_extension: str) -> Tuple[Callable, str]:
 
 
 async def after_check(path: str) -> None:
-    logger_.info('Sorting was finished. After sorting checking is statrted')
+    logger_.info('Sorting was finished. After sorting checking is started')
     for folder in os.listdir(path):
         if get_folder_size(f'{path}\\{folder}') == 0:
             await aioshutil.rmtree(f'{path}\\{folder}')
@@ -135,10 +139,15 @@ def get_folder_size(folder_path: str) -> int:
 
 async def make_directories(path: str) -> None:
     logger_.info('Function make_directories')
+    for key in extensions:
+        await aiofiles.os.makedirs('\\'.join((path, key.title())), exist_ok=True)
+    await aiofiles.os.makedirs('\\'.join((path, 'Other')), exist_ok=True)
+
+
+async def check_path(path: str) -> str | None:
+    logger_.info('Function check_path')
     if await aiofiles.os.path.exists(path):
-        for key in extensions:
-            await aiofiles.os.makedirs('\\'.join((path, key.title())), exist_ok=True)
-        await aiofiles.os.makedirs('\\'.join((path, 'Other')), exist_ok=True)
+        return path
     else:
         logger_.error('Error with an entered path')
         print('Something went wrong. Check a validity of the entered path.')
@@ -148,6 +157,32 @@ def instructions() -> None:
     logger_.info('Function instructions')
     for command in cleaner_commands.display_commands():
         print(command)
+
+
+async def clean_folder(path: str):
+    checked_path: str = await check_path(path)
+    if checked_path:
+        global root
+        root = checked_path
+        await make_directories(path)
+        await process_directory(path)
+        await after_check(path)
+        print(f'The folder in path {checked_path} was cleaned.')
+
+
+functions = {'help': instructions, 'path': clean_folder}
+
+
+async def handler(command: str):
+    logger_.debug(f'handling command: {command}')
+    pattern = re.compile(r'([A-Z]:\\){1}(\w+\\)*(\w+){1}')
+    if re.match(pattern, command):
+        return await functions['path'](command)
+    try:
+        return functions[command]()
+    except KeyError as error:
+        logger_.error(f'Error occurred: {error}')
+        print('I do not understand what you want to do. Please look at instructions, type <help>')
 
 
 def greeting_cleaner() -> None:
@@ -160,15 +195,25 @@ async def clean_folder_main() -> None:
     logger_.info('Function clean_folder_main')
     greeting_cleaner()
     instructions()
-    global root
     while True:
-        root = input('\nType a path to a folder to clean or a command: ')
-        if root == 'back':
+        answer: str = input('\nType a path to a folder to clean or a command: ')
+        if answer == 'back':
             print('\nYou returned to the main Menu.')
             break
-        elif root == 'help':
+        await handler(answer)
+
+# Without handler() and dict functions:
+
+'''async def clean_folder_main() -> None:
+    logger_.info('Function clean_folder_main')
+    greeting_cleaner()
+    instructions()
+    while True:
+        answer: str = input('\nType a path to a folder to clean or a command: ')
+        if answer == 'back':
+            print('\nYou returned to the main Menu.')
+            break
+        elif answer == 'help':
             instructions()
         else:
-            await make_directories(root)
-            await process_directory(root)
-            await after_check(root)
+            await clean_folder(answer)'''
