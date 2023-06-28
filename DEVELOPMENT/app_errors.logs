@@ -7,3 +7,8 @@
 2023-06-27 12:19:37,125 - [ERROR] - functions -      inner_func(17) - Exception raised: Wrong format - 1234 - of a phone number.
 2023-06-27 12:21:22,252 - [ERROR] - functions -      inner_func(17) - Exception raised: Record with a such name Tony already exists.
 2023-06-27 12:21:42,461 - [ERROR] - functions -      inner_func(17) - Exception raised: Birthday does not exist for this contact.
+2023-06-28 18:42:04,726 - [ERROR] - cleaner_functions -         handler(178) - Error occurred: 'D:\\\\GOIT\\\\trash'
+2023-06-28 18:43:20,803 - [ERROR] - cleaner_functions -         handler(178) - Error occurred: 'D://GOIT//trash'
+2023-06-28 18:46:40,533 - [ERROR] - cleaner_functions -         handler(178) - Error occurred: 'D:\\\\GOIT\\\\trash'
+2023-06-28 18:51:11,356 - [ERROR] - cleaner_functions -         handler(178) - Error occurred: 'D:GOIT\\trash'
+2023-06-28 18:51:31,830 - [ERROR] - cleaner_functions -         handler(178) - Error occurred: 'D:\\GOIT\\trash'
