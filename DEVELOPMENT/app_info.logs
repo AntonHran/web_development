@@ -502,3 +502,1391 @@
 2023-06-28 18:58:00,313 - [INFO] - cleaner_functions - get_folder_size(127) - getting folder size
 2023-06-28 18:58:22,987 - [INFO] - cleaner_functions -    instructions(153) - Function instructions
 2023-06-28 18:59:12,842 - [INFO] - __main__ -            main(56) - Close the assistant
+2023-07-03 17:34:01,523 - [INFO] - game -  get_words_list(26) - Function get_words_list: creating list of words
+2023-07-03 17:34:02,232 - [INFO] - __main__ -            main(51) - Start main function
+2023-07-03 17:34:02,233 - [INFO] - __main__ -   greeting_main(27) - Start the assistant!!!
+2023-07-03 17:34:02,233 - [INFO] - __main__ - main_instructions(21) - start main help function
+2023-07-03 17:34:07,109 - [INFO] - __main__ -         handler(43) - start handler function
+2023-07-03 17:34:07,109 - [DEBUG] - __main__ -         handler(44) - user choice = 2
+2023-07-03 17:34:07,112 - [INFO] - cleaner_functions - clean_folder_main(195) - Function clean_folder_main
+2023-07-03 17:34:07,113 - [INFO] - cleaner_functions - greeting_cleaner(189) - Function greeting_cleaner
+2023-07-03 17:34:07,113 - [INFO] - cleaner_functions -    instructions(157) - Function instructions
+2023-07-03 17:34:18,741 - [DEBUG] - cleaner_functions -         handler(177) - handling command: D:\GOIT\trash
+2023-07-03 17:34:18,741 - [INFO] - cleaner_functions -      check_path(148) - Function check_path: D:\GOIT\trash
+2023-07-03 17:34:18,742 - [INFO] - cleaner_functions - make_directories(141) - Function make_directories
+2023-07-03 17:34:18,749 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash
+2023-07-03 17:34:18,765 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 2021-08-27_-_Worker_and_Temporary_Worker.csv from D:\GOIT\trash
+2023-07-03 17:34:18,766 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: csv
+2023-07-03 17:34:18,766 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 2021-08-27_-_Worker_and_Temporary_Worker from D:\GOIT\trash
+2023-07-03 17:34:18,766 - [INFO] - cleaner_functions -          rename(90) - Function rename: 2021-08-27_-_Worker_and_Temporary_Worker
+2023-07-03 17:34:18,767 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash
+2023-07-03 17:34:18,787 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: BS8888-2011-Engineering drawing.pdf from D:\GOIT\trash
+2023-07-03 17:34:18,787 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:18,787 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: BS8888-2011-Engineering drawing from D:\GOIT\trash
+2023-07-03 17:34:18,787 - [INFO] - cleaner_functions -          rename(90) - Function rename: BS8888-2011-Engineering drawing
+2023-07-03 17:34:18,789 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash
+2023-07-03 17:34:18,801 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: bs8888-drafting.pdf from D:\GOIT\trash
+2023-07-03 17:34:18,801 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:18,801 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: bs8888-drafting from D:\GOIT\trash
+2023-07-03 17:34:18,801 - [INFO] - cleaner_functions -          rename(90) - Function rename: bs8888-drafting
+2023-07-03 17:34:18,803 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash
+2023-07-03 17:34:18,816 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,817 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Anton Hranovskyi CV pdf.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,817 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:18,817 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Anton Hranovskyi CV pdf from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,817 - [INFO] - cleaner_functions -          rename(90) - Function rename: Anton Hranovskyi CV pdf
+2023-07-03 17:34:18,819 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,831 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Anton Hranovskyi CV.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,831 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:18,831 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,831 - [INFO] - cleaner_functions -          rename(90) - Function rename: Anton Hranovskyi CV
+2023-07-03 17:34:18,833 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,847 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Cover letter .doc from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,847 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: doc
+2023-07-03 17:34:18,847 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Cover letter  from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,847 - [INFO] - cleaner_functions -          rename(90) - Function rename: Cover letter 
+2023-07-03 17:34:18,849 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,861 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Cover letter edited.doc from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,862 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: doc
+2023-07-03 17:34:18,862 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Cover letter edited from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,862 - [INFO] - cleaner_functions -          rename(90) - Function rename: Cover letter edited
+2023-07-03 17:34:18,864 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:18,878 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 17:34:18,879 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Anton Hranovskyi CV.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 17:34:18,879 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:18,879 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 17:34:18,879 - [INFO] - cleaner_functions -          rename(90) - Function rename: Anton Hranovskyi CV
+2023-07-03 17:34:18,880 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 17:34:18,892 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Anton Hranovskyi CV.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 17:34:18,893 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:18,893 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 17:34:18,893 - [INFO] - cleaner_functions -          rename(90) - Function rename: Anton Hranovskyi CV
+2023-07-03 17:34:18,896 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 17:34:18,908 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD
+2023-07-03 17:34:18,910 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,910 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Anton Hranovskyi CV.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,910 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:18,912 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,912 - [INFO] - cleaner_functions -          rename(90) - Function rename: Anton Hranovskyi CV
+2023-07-03 17:34:18,914 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,924 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Anton Hranovskyi CV.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,924 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:18,924 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,924 - [INFO] - cleaner_functions -          rename(90) - Function rename: Anton Hranovskyi CV
+2023-07-03 17:34:18,928 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,939 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: CAD draughtsperson job application.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,939 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:18,939 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: CAD draughtsperson job application from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,939 - [INFO] - cleaner_functions -          rename(90) - Function rename: CAD draughtsperson job application
+2023-07-03 17:34:18,941 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,954 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: For thoughts.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,954 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:18,954 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: For thoughts from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,954 - [INFO] - cleaner_functions -          rename(90) - Function rename: For thoughts
+2023-07-03 17:34:18,956 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,969 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: job application CAD draughtsperson.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,969 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:18,969 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: job application CAD draughtsperson from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,969 - [INFO] - cleaner_functions -          rename(90) - Function rename: job application CAD draughtsperson
+2023-07-03 17:34:18,972 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,985 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Job application email.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,985 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:18,985 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Job application email from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:18,985 - [INFO] - cleaner_functions -          rename(90) - Function rename: Job application email
+2023-07-03 17:34:18,987 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:19,001 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Job application form.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:19,001 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:19,001 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Job application form from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:19,001 - [INFO] - cleaner_functions -          rename(90) - Function rename: Job application form
+2023-07-03 17:34:19,003 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 17:34:19,017 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,018 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Anton Hranovskyi CV.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,018 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:19,018 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,018 - [INFO] - cleaner_functions -          rename(90) - Function rename: Anton Hranovskyi CV
+2023-07-03 17:34:19,022 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,032 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Anton Hranovskyi_CV.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,032 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,032 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Anton Hranovskyi_CV from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,032 - [INFO] - cleaner_functions -          rename(90) - Function rename: Anton Hranovskyi_CV
+2023-07-03 17:34:19,038 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,047 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Letter to MMD HR Manager.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,047 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:19,048 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Letter to MMD HR Manager from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,048 - [INFO] - cleaner_functions -          rename(90) - Function rename: Letter to MMD HR Manager
+2023-07-03 17:34:19,050 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,062 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Letter to MMD HR Manager.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,062 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,063 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Letter to MMD HR Manager from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,063 - [INFO] - cleaner_functions -          rename(90) - Function rename: Letter to MMD HR Manager
+2023-07-03 17:34:19,065 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 17:34:19,078 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: _signature_.png from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:19,078 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: png
+2023-07-03 17:34:19,078 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: _signature_ from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:19,079 - [INFO] - cleaner_functions -          rename(90) - Function rename: _signature_
+2023-07-03 17:34:19,081 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 17:34:19,094 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\English
+2023-07-03 17:34:19,095 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 6-Week-Study-Plan-New-convert.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:19,095 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,095 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 6-Week-Study-Plan-New-convert from D:\GOIT\trash\English
+2023-07-03 17:34:19,095 - [INFO] - cleaner_functions -          rename(90) - Function rename: 6-Week-Study-Plan-New-convert
+2023-07-03 17:34:19,097 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:19,110 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Course_Planner.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:19,110 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,110 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Course_Planner from D:\GOIT\trash\English
+2023-07-03 17:34:19,110 - [INFO] - cleaner_functions -          rename(90) - Function rename: Course_Planner
+2023-07-03 17:34:19,112 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:19,125 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Ielts General Training Reading 2021 (superingenious.com).pdf from D:\GOIT\trash\English
+2023-07-03 17:34:19,125 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,125 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Ielts General Training Reading 2021 (superingenious.com) from D:\GOIT\trash\English
+2023-07-03 17:34:19,125 - [INFO] - cleaner_functions -          rename(90) - Function rename: Ielts General Training Reading 2021 (superingenious.com)
+2023-07-03 17:34:19,127 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:19,141 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: IELTS_Advantage_VIP_Study_Plan.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:19,141 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,141 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: IELTS_Advantage_VIP_Study_Plan from D:\GOIT\trash\English
+2023-07-03 17:34:19,141 - [INFO] - cleaner_functions -          rename(90) - Function rename: IELTS_Advantage_VIP_Study_Plan
+2023-07-03 17:34:19,143 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:19,155 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening-eBook-Final.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:19,155 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,155 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening-eBook-Final from D:\GOIT\trash\English
+2023-07-03 17:34:19,155 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening-eBook-Final
+2023-07-03 17:34:19,157 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:19,170 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Part_1_Practice_Questions.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:19,171 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,171 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Part_1_Practice_Questions from D:\GOIT\trash\English
+2023-07-03 17:34:19,171 - [INFO] - cleaner_functions -          rename(90) - Function rename: Part_1_Practice_Questions
+2023-07-03 17:34:19,172 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:19,186 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Part_2_3_Practice_Questions.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:19,187 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,187 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Part_2_3_Practice_Questions from D:\GOIT\trash\English
+2023-07-03 17:34:19,187 - [INFO] - cleaner_functions -          rename(90) - Function rename: Part_2_3_Practice_Questions
+2023-07-03 17:34:19,189 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:19,201 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Pre-Test-Checklist_July_18.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:19,201 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,201 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Pre-Test-Checklist_July_18 from D:\GOIT\trash\English
+2023-07-03 17:34:19,201 - [INFO] - cleaner_functions -          rename(90) - Function rename: Pre-Test-Checklist_July_18
+2023-07-03 17:34:19,203 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:19,217 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Progress-Checklist_UPDATED_.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:19,217 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,217 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Progress-Checklist_UPDATED_ from D:\GOIT\trash\English
+2023-07-03 17:34:19,218 - [INFO] - cleaner_functions -          rename(90) - Function rename: Progress-Checklist_UPDATED_
+2023-07-03 17:34:19,219 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:19,234 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,235 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 29. 30 Advanced Verbs.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,235 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,235 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 29. 30 Advanced Verbs from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,235 - [INFO] - cleaner_functions -          rename(90) - Function rename: 29. 30 Advanced Verbs
+2023-07-03 17:34:19,238 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,247 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 30. Learn Spoken English.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,248 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,248 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 30. Learn Spoken English from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,248 - [INFO] - cleaner_functions -          rename(90) - Function rename: 30. Learn Spoken English
+2023-07-03 17:34:19,250 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,263 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 31. 50 Advanced Adjectives.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,264 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,264 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 31. 50 Advanced Adjectives from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,264 - [INFO] - cleaner_functions -          rename(90) - Function rename: 31. 50 Advanced Adjectives
+2023-07-03 17:34:19,265 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,279 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 45. Native Pronunciation Tricks.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,279 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,279 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 45. Native Pronunciation Tricks from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,279 - [INFO] - cleaner_functions -          rename(90) - Function rename: 45. Native Pronunciation Tricks
+2023-07-03 17:34:19,281 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,295 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Advanced English.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,295 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,295 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Advanced English from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,295 - [INFO] - cleaner_functions -          rename(90) - Function rename: Advanced English
+2023-07-03 17:34:19,297 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,310 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Answer_Sheet.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,310 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,311 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Answer_Sheet from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,311 - [INFO] - cleaner_functions -          rename(90) - Function rename: Answer_Sheet
+2023-07-03 17:34:19,313 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,326 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: English_for_Business_Success_v_1_0.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,326 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,326 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: English_for_Business_Success_v_1_0 from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,326 - [INFO] - cleaner_functions -          rename(90) - Function rename: English_for_Business_Success_v_1_0
+2023-07-03 17:34:19,328 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,341 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Form_and_Note_Completion_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,341 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,342 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Form_and_Note_Completion_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,342 - [INFO] - cleaner_functions -          rename(90) - Function rename: Form_and_Note_Completion_Audio
+2023-07-03 17:34:19,344 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,357 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Form_and_Note_Completion_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,357 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,358 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Form_and_Note_Completion_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,358 - [INFO] - cleaner_functions -          rename(90) - Function rename: Form_and_Note_Completion_Practice_Questions_1_
+2023-07-03 17:34:19,360 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,372 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: General-IELTS-60-Day-Study-Plan.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,372 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,372 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: General-IELTS-60-Day-Study-Plan from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,372 - [INFO] - cleaner_functions -          rename(90) - Function rename: General-IELTS-60-Day-Study-Plan
+2023-07-03 17:34:19,374 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,389 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: General-IELTS-Course-Book-1-d7b18e9db18c3946ae9c18a3929f73cb.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,389 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,389 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: General-IELTS-Course-Book-1-d7b18e9db18c3946ae9c18a3929f73cb from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,389 - [INFO] - cleaner_functions -          rename(90) - Function rename: General-IELTS-Course-Book-1-d7b18e9db18c3946ae9c18a3929f73cb
+2023-07-03 17:34:19,391 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,404 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: General-IELTS-Course-Book-2-d7b18e9db18c3946ae9c18a3929f73cb.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,404 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,404 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: General-IELTS-Course-Book-2-d7b18e9db18c3946ae9c18a3929f73cb from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,404 - [INFO] - cleaner_functions -          rename(90) - Function rename: General-IELTS-Course-Book-2-d7b18e9db18c3946ae9c18a3929f73cb
+2023-07-03 17:34:19,406 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,420 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: General-IELTS-Student-Workbook-d7b18e9db18c3946ae9c18a3929f73cb.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,420 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,420 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: General-IELTS-Student-Workbook-d7b18e9db18c3946ae9c18a3929f73cb from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,420 - [INFO] - cleaner_functions -          rename(90) - Function rename: General-IELTS-Student-Workbook-d7b18e9db18c3946ae9c18a3929f73cb
+2023-07-03 17:34:19,422 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,435 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: IELTS-Advantage-VIP-Study-Plan.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,435 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,435 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: IELTS-Advantage-VIP-Study-Plan from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,435 - [INFO] - cleaner_functions -          rename(90) - Function rename: IELTS-Advantage-VIP-Study-Plan
+2023-07-03 17:34:19,438 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,450 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Labeling_a_Map_or_Plan_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,450 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,451 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Labeling_a_Map_or_Plan_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,451 - [INFO] - cleaner_functions -          rename(90) - Function rename: Labeling_a_Map_or_Plan_Audio
+2023-07-03 17:34:19,453 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,467 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Labeling_a_Map_or_Plan_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,467 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,467 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Labeling_a_Map_or_Plan_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,467 - [INFO] - cleaner_functions -          rename(90) - Function rename: Labeling_a_Map_or_Plan_Practice_Questions_1_
+2023-07-03 17:34:19,469 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,482 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening-eBook (1).pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,482 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,482 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening-eBook (1) from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,482 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening-eBook (1)
+2023-07-03 17:34:19,484 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,498 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening-eBook.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,498 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,498 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening-eBook from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,498 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening-eBook
+2023-07-03 17:34:19,499 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,512 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Academy_Study_Planner.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,512 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,513 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Academy_Study_Planner from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,513 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Academy_Study_Planner
+2023-07-03 17:34:19,515 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,528 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_A.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,528 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,528 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_A from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,529 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_A
+2023-07-03 17:34:19,530 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,544 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_A_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,544 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,544 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_A_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,544 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_A_Audio
+2023-07-03 17:34:19,546 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,560 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_B.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,560 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,560 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_B from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,560 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_B
+2023-07-03 17:34:19,564 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,575 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_B_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,575 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,575 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_B_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,575 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_B_Audio
+2023-07-03 17:34:19,577 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,591 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_C.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,591 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,591 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_C from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,591 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_C
+2023-07-03 17:34:19,593 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,605 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_C_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,606 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,606 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_C_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,606 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_C_Audio
+2023-07-03 17:34:19,608 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,621 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_D_2_ (1).pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,621 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,621 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_D_2_ (1) from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,621 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_D_2_ (1)
+2023-07-03 17:34:19,623 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,636 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_D_2_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,636 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,636 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_D_2_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,636 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_D_2_
+2023-07-03 17:34:19,638 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,651 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_D_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,651 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,651 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_D_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,652 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_D_Audio
+2023-07-03 17:34:19,653 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,666 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_E_2_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,667 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,667 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_E_2_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,667 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_E_2_
+2023-07-03 17:34:19,669 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,683 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_E_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,683 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,683 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_E_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,683 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_E_Audio
+2023-07-03 17:34:19,685 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,697 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_F.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,698 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,698 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_F from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,698 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_F
+2023-07-03 17:34:19,700 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,712 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_F_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,712 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,712 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_F_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,712 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_F_Audio
+2023-07-03 17:34:19,714 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,728 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_G_2_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,729 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,729 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_G_2_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,729 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_G_2_
+2023-07-03 17:34:19,731 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,745 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_G_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,745 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,745 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_G_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,745 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_G_Audio
+2023-07-03 17:34:19,747 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,760 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_H_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,760 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,761 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_H_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,761 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_H_1_
+2023-07-03 17:34:19,763 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,777 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Listening_Test_H_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,777 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,777 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Listening_Test_H_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,777 - [INFO] - cleaner_functions -          rename(90) - Function rename: Listening_Test_H_Audio
+2023-07-03 17:34:19,779 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,792 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Matching_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,792 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,792 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Matching_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,792 - [INFO] - cleaner_functions -          rename(90) - Function rename: Matching_Audio
+2023-07-03 17:34:19,794 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,806 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Matching_Practice_Questions_1_ (1).pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,806 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,806 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Matching_Practice_Questions_1_ (1) from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,806 - [INFO] - cleaner_functions -          rename(90) - Function rename: Matching_Practice_Questions_1_ (1)
+2023-07-03 17:34:19,809 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,823 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Matching_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,823 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,823 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Matching_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,823 - [INFO] - cleaner_functions -          rename(90) - Function rename: Matching_Practice_Questions_1_
+2023-07-03 17:34:19,825 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,838 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Murphy R. English Grammar in Use. 2012 4-ed..pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,838 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,838 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Murphy R. English Grammar in Use. 2012 4-ed. from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,838 - [INFO] - cleaner_functions -          rename(90) - Function rename: Murphy R. English Grammar in Use. 2012 4-ed.
+2023-07-03 17:34:19,841 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,854 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: OPG Intermediate SB.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,854 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,854 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: OPG Intermediate SB from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,854 - [INFO] - cleaner_functions -          rename(90) - Function rename: OPG Intermediate SB
+2023-07-03 17:34:19,857 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,869 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Reading-eBook.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,870 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,870 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Reading-eBook from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,870 - [INFO] - cleaner_functions -          rename(90) - Function rename: Reading-eBook
+2023-07-03 17:34:19,872 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,886 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Sentence_Completion_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,886 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,886 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Sentence_Completion_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,886 - [INFO] - cleaner_functions -          rename(90) - Function rename: Sentence_Completion_Practice_Questions_1_
+2023-07-03 17:34:19,888 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,901 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Short_Answer_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,902 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,902 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Short_Answer_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,902 - [INFO] - cleaner_functions -          rename(90) - Function rename: Short_Answer_Audio
+2023-07-03 17:34:19,904 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,916 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Short_Answer_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,917 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,917 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Short_Answer_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,917 - [INFO] - cleaner_functions -          rename(90) - Function rename: Short_Answer_Practice_Questions_1_
+2023-07-03 17:34:19,918 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,931 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Speaking-Progress-Checklist.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,931 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,932 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Speaking-Progress-Checklist from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,932 - [INFO] - cleaner_functions -          rename(90) - Function rename: Speaking-Progress-Checklist
+2023-07-03 17:34:19,936 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,948 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: SPEAKINGACADEMYMODULE4.docx.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,948 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,948 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: SPEAKINGACADEMYMODULE4.docx from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,948 - [INFO] - cleaner_functions -          rename(90) - Function rename: SPEAKINGACADEMYMODULE4.docx
+2023-07-03 17:34:19,950 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,962 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: SPEAKING_ACADEMY_MODULE_7.docx_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,962 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,962 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: SPEAKING_ACADEMY_MODULE_7.docx_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,963 - [INFO] - cleaner_functions -          rename(90) - Function rename: SPEAKING_ACADEMY_MODULE_7.docx_1_
+2023-07-03 17:34:19,964 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,978 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Summary_Completion_Audio_1_.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,978 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: m4a
+2023-07-03 17:34:19,979 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Summary_Completion_Audio_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,979 - [INFO] - cleaner_functions -          rename(90) - Function rename: Summary_Completion_Audio_1_
+2023-07-03 17:34:19,980 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,994 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Summary_Completion_Practice_Questions_2_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,994 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:19,994 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Summary_Completion_Practice_Questions_2_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:19,994 - [INFO] - cleaner_functions -          rename(90) - Function rename: Summary_Completion_Practice_Questions_2_
+2023-07-03 17:34:19,996 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,009 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Table_Completion_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,009 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,009 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Table_Completion_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,009 - [INFO] - cleaner_functions -          rename(90) - Function rename: Table_Completion_Practice_Questions_1_
+2023-07-03 17:34:20,012 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,024 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Task_2_-_Module_10.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,025 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,025 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Task_2_-_Module_10 from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,025 - [INFO] - cleaner_functions -          rename(90) - Function rename: Task_2_-_Module_10
+2023-07-03 17:34:20,027 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,041 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Task_2_-_Module_11.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,041 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,041 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Task_2_-_Module_11 from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,041 - [INFO] - cleaner_functions -          rename(90) - Function rename: Task_2_-_Module_11
+2023-07-03 17:34:20,043 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,056 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Task_2_-_Module_6.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,056 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,056 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Task_2_-_Module_6 from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,056 - [INFO] - cleaner_functions -          rename(90) - Function rename: Task_2_-_Module_6
+2023-07-03 17:34:20,058 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,072 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Task_2_-_Module_7.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,072 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,072 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Task_2_-_Module_7 from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,072 - [INFO] - cleaner_functions -          rename(90) - Function rename: Task_2_-_Module_7
+2023-07-03 17:34:20,074 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,086 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Task_2_-_Module_8.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,086 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,087 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Task_2_-_Module_8 from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,087 - [INFO] - cleaner_functions -          rename(90) - Function rename: Task_2_-_Module_8
+2023-07-03 17:34:20,089 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,101 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Task_2_-_Module_9.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,101 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,101 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Task_2_-_Module_9 from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,101 - [INFO] - cleaner_functions -          rename(90) - Function rename: Task_2_-_Module_9
+2023-07-03 17:34:20,103 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,118 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Track 01.mp3 from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,118 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: mp3
+2023-07-03 17:34:20,118 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Track 01 from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,118 - [INFO] - cleaner_functions -          rename(90) - Function rename: Track 01
+2023-07-03 17:34:20,120 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,133 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Vocabulary-Improvement-Plan-1.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,133 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,133 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Vocabulary-Improvement-Plan-1 from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,133 - [INFO] - cleaner_functions -          rename(90) - Function rename: Vocabulary-Improvement-Plan-1
+2023-07-03 17:34:20,135 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,149 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Vocabulary-Improvement-Plan.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,149 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,150 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Vocabulary-Improvement-Plan from D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,150 - [INFO] - cleaner_functions -          rename(90) - Function rename: Vocabulary-Improvement-Plan
+2023-07-03 17:34:20,151 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 17:34:20,165 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Reading-eBook-Final.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:20,165 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,165 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Reading-eBook-Final from D:\GOIT\trash\English
+2023-07-03 17:34:20,165 - [INFO] - cleaner_functions -          rename(90) - Function rename: Reading-eBook-Final
+2023-07-03 17:34:20,167 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:20,181 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Speaking-Progress-Checklist.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:20,181 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,181 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Speaking-Progress-Checklist from D:\GOIT\trash\English
+2023-07-03 17:34:20,181 - [INFO] - cleaner_functions -          rename(90) - Function rename: Speaking-Progress-Checklist
+2023-07-03 17:34:20,184 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:20,196 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Speaking_Cohesive_Devices.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:20,196 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,196 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Speaking_Cohesive_Devices from D:\GOIT\trash\English
+2023-07-03 17:34:20,196 - [INFO] - cleaner_functions -          rename(90) - Function rename: Speaking_Cohesive_Devices
+2023-07-03 17:34:20,197 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:20,211 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Vocabulary-Improvement-Plan.pdf from D:\GOIT\trash\English
+2023-07-03 17:34:20,211 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,211 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Vocabulary-Improvement-Plan from D:\GOIT\trash\English
+2023-07-03 17:34:20,211 - [INFO] - cleaner_functions -          rename(90) - Function rename: Vocabulary-Improvement-Plan
+2023-07-03 17:34:20,214 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:20,227 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: темы спикинг.docx from D:\GOIT\trash\English
+2023-07-03 17:34:20,227 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,227 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: темы спикинг from D:\GOIT\trash\English
+2023-07-03 17:34:20,227 - [INFO] - cleaner_functions -          rename(90) - Function rename: темы спикинг
+2023-07-03 17:34:20,229 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 17:34:20,243 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: EnglishScore_Certificate.pdf from D:\GOIT\trash
+2023-07-03 17:34:20,243 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,243 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: EnglishScore_Certificate from D:\GOIT\trash
+2023-07-03 17:34:20,243 - [INFO] - cleaner_functions -          rename(90) - Function rename: EnglishScore_Certificate
+2023-07-03 17:34:20,245 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash
+2023-07-03 17:34:20,258 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\Linkedin
+2023-07-03 17:34:20,259 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: About myself.docx from D:\GOIT\trash\Linkedin
+2023-07-03 17:34:20,259 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,259 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: About myself from D:\GOIT\trash\Linkedin
+2023-07-03 17:34:20,259 - [INFO] - cleaner_functions -          rename(90) - Function rename: About myself
+2023-07-03 17:34:20,261 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Linkedin
+2023-07-03 17:34:20,272 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Description....docx from D:\GOIT\trash\Linkedin
+2023-07-03 17:34:20,272 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,272 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Description... from D:\GOIT\trash\Linkedin
+2023-07-03 17:34:20,273 - [INFO] - cleaner_functions -          rename(90) - Function rename: Description...
+2023-07-03 17:34:20,274 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Linkedin
+2023-07-03 17:34:20,289 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\Other
+2023-07-03 17:34:20,290 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,291 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,292 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 0-02-05-090197817222c698cb01c9c9057839e129887c96719d8b030ac2e35e58ef240d_f3c2516e4801fc21.jpg from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,292 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,292 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 0-02-05-090197817222c698cb01c9c9057839e129887c96719d8b030ac2e35e58ef240d_f3c2516e4801fc21 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,292 - [INFO] - cleaner_functions -          rename(90) - Function rename: 0-02-05-090197817222c698cb01c9c9057839e129887c96719d8b030ac2e35e58ef240d_f3c2516e4801fc21
+2023-07-03 17:34:20,294 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,304 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 0-02-05-410ec7e2cd7443d74436295a619834007a303e50e285e8acf406a202c000192c_bd2c74ecf9b41f1f.jpg from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,304 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,304 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 0-02-05-410ec7e2cd7443d74436295a619834007a303e50e285e8acf406a202c000192c_bd2c74ecf9b41f1f from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,304 - [INFO] - cleaner_functions -          rename(90) - Function rename: 0-02-05-410ec7e2cd7443d74436295a619834007a303e50e285e8acf406a202c000192c_bd2c74ecf9b41f1f
+2023-07-03 17:34:20,306 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,320 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 0-02-05-58c6a280bb277c07aa218da4008ee553d16984b11dfcfb4822dcc3ff37a40644_5d4bf7c6b56e8939.jpg from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,320 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,320 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 0-02-05-58c6a280bb277c07aa218da4008ee553d16984b11dfcfb4822dcc3ff37a40644_5d4bf7c6b56e8939 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,321 - [INFO] - cleaner_functions -          rename(90) - Function rename: 0-02-05-58c6a280bb277c07aa218da4008ee553d16984b11dfcfb4822dcc3ff37a40644_5d4bf7c6b56e8939
+2023-07-03 17:34:20,323 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,335 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 0-02-05-c9a0acd4a976342dceb4de38ce9322016d84d1f31a4ec4cde6926c1e81f12c44_2165b6f8fb660382.jpg from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,335 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,335 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 0-02-05-c9a0acd4a976342dceb4de38ce9322016d84d1f31a4ec4cde6926c1e81f12c44_2165b6f8fb660382 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,336 - [INFO] - cleaner_functions -          rename(90) - Function rename: 0-02-05-c9a0acd4a976342dceb4de38ce9322016d84d1f31a4ec4cde6926c1e81f12c44_2165b6f8fb660382
+2023-07-03 17:34:20,338 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,351 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: 0-02-05-eb176905ac91bf4c0629495b4fca07dae4dfb2f77642a0c12414667d6d4dd4b5_b880f55d572efc85.jpg from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,351 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,351 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: 0-02-05-eb176905ac91bf4c0629495b4fca07dae4dfb2f77642a0c12414667d6d4dd4b5_b880f55d572efc85 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,351 - [INFO] - cleaner_functions -          rename(90) - Function rename: 0-02-05-eb176905ac91bf4c0629495b4fca07dae4dfb2f77642a0c12414667d6d4dd4b5_b880f55d572efc85
+2023-07-03 17:34:20,354 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,366 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Рахунок по електроенергії за період з 01.01.2023 по 31.01.2023.pdf from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,366 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,366 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Рахунок по електроенергії за період з 01.01.2023 по 31.01.2023 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,367 - [INFO] - cleaner_functions -          rename(90) - Function rename: Рахунок по електроенергії за період з 01.01.2023 по 31.01.2023
+2023-07-03 17:34:20,368 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,382 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Рахунок по електроенергії за період з 01.02.2023 по 28.02.2023.pdf from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,382 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,382 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Рахунок по електроенергії за період з 01.02.2023 по 28.02.2023 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,382 - [INFO] - cleaner_functions -          rename(90) - Function rename: Рахунок по електроенергії за період з 01.02.2023 по 28.02.2023
+2023-07-03 17:34:20,385 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,398 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Рахунок по електроенергії за період з 01.03.2023 по 31.03.2023.pdf from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,398 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,398 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Рахунок по електроенергії за період з 01.03.2023 по 31.03.2023 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,398 - [INFO] - cleaner_functions -          rename(90) - Function rename: Рахунок по електроенергії за період з 01.03.2023 по 31.03.2023
+2023-07-03 17:34:20,400 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 17:34:20,413 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: payoneer_my_account.png from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,413 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: png
+2023-07-03 17:34:20,413 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: payoneer_my_account from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,414 - [INFO] - cleaner_functions -          rename(90) - Function rename: payoneer_my_account
+2023-07-03 17:34:20,415 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,428 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: договор_аренды_1.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,428 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,429 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: договор_аренды_1 from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,429 - [INFO] - cleaner_functions -          rename(90) - Function rename: договор_аренды_1
+2023-07-03 17:34:20,431 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,444 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: догогвор_аренды_2.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,444 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,444 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: догогвор_аренды_2 from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,444 - [INFO] - cleaner_functions -          rename(90) - Function rename: догогвор_аренды_2
+2023-07-03 17:34:20,446 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,460 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: загран_паспорт.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,460 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,460 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: загран_паспорт from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,460 - [INFO] - cleaner_functions -          rename(90) - Function rename: загран_паспорт
+2023-07-03 17:34:20,462 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,476 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: ИНН.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,476 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,476 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: ИНН from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,476 - [INFO] - cleaner_functions -          rename(90) - Function rename: ИНН
+2023-07-03 17:34:20,477 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,490 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: квитанция.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,491 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,491 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: квитанция from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,491 - [INFO] - cleaner_functions -          rename(90) - Function rename: квитанция
+2023-07-03 17:34:20,493 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,505 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: переименованные_улицы.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,506 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,506 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: переименованные_улицы from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,506 - [INFO] - cleaner_functions -          rename(90) - Function rename: переименованные_улицы
+2023-07-03 17:34:20,507 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,521 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: свидетельство о рождении.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,521 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: jpg
+2023-07-03 17:34:20,522 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: свидетельство о рождении from D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,522 - [INFO] - cleaner_functions -          rename(90) - Function rename: свидетельство о рождении
+2023-07-03 17:34:20,523 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 17:34:20,538 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,539 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: statement of comparability.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,539 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,540 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: statement of comparability from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,540 - [INFO] - cleaner_functions -          rename(90) - Function rename: statement of comparability
+2023-07-03 17:34:20,541 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,552 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Бакалавр-1-5.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,552 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,552 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Бакалавр-1-5 from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,552 - [INFO] - cleaner_functions -          rename(90) - Function rename: Бакалавр-1-5
+2023-07-03 17:34:20,554 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,567 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Бакалавр-6-12.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,567 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,568 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Бакалавр-6-12 from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,568 - [INFO] - cleaner_functions -          rename(90) - Function rename: Бакалавр-6-12
+2023-07-03 17:34:20,570 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,584 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Грановський.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,584 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,584 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Грановський from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,584 - [INFO] - cleaner_functions -          rename(90) - Function rename: Грановський
+2023-07-03 17:34:20,586 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,599 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Магистр-1-5.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,599 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,599 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Магистр-1-5 from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,599 - [INFO] - cleaner_functions -          rename(90) - Function rename: Магистр-1-5
+2023-07-03 17:34:20,601 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,613 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Магистр-6-11.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,614 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: pdf
+2023-07-03 17:34:20,614 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Магистр-6-11 from D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,614 - [INFO] - cleaner_functions -          rename(90) - Function rename: Магистр-6-11
+2023-07-03 17:34:20,616 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 17:34:20,629 - [INFO] - cleaner_functions - process_directory(27) - Function process_directory: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,630 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: cv-grey-headers-garamond (1).doc from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,630 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: doc
+2023-07-03 17:34:20,630 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: cv-grey-headers-garamond (1) from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,630 - [INFO] - cleaner_functions -          rename(90) - Function rename: cv-grey-headers-garamond (1)
+2023-07-03 17:34:20,633 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,643 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: cv-grey-headers-garamond.doc from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,643 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: doc
+2023-07-03 17:34:20,643 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: cv-grey-headers-garamond from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,643 - [INFO] - cleaner_functions -          rename(90) - Function rename: cv-grey-headers-garamond
+2023-07-03 17:34:20,646 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,660 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Fresh-Two-Column-CV-template.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,660 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,660 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Fresh-Two-Column-CV-template from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,660 - [INFO] - cleaner_functions -          rename(90) - Function rename: Fresh-Two-Column-CV-template
+2023-07-03 17:34:20,662 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,676 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: HR_CV_manager.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,676 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,676 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: HR_CV_manager from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,676 - [INFO] - cleaner_functions -          rename(90) - Function rename: HR_CV_manager
+2023-07-03 17:34:20,678 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,691 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Library_Assistant_CV (1).docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,691 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,692 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Library_Assistant_CV (1) from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,692 - [INFO] - cleaner_functions -          rename(90) - Function rename: Library_Assistant_CV (1)
+2023-07-03 17:34:20,694 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,708 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Library_Assistant_CV.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,708 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,708 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Library_Assistant_CV from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,708 - [INFO] - cleaner_functions -          rename(90) - Function rename: Library_Assistant_CV
+2023-07-03 17:34:20,710 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,723 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: monster-cv-template-customer-service-advisor.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,723 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,723 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: monster-cv-template-customer-service-advisor from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,723 - [INFO] - cleaner_functions -          rename(90) - Function rename: monster-cv-template-customer-service-advisor
+2023-07-03 17:34:20,726 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,739 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Resume-Template-Beige-Retro.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,739 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,739 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Resume-Template-Beige-Retro from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,739 - [INFO] - cleaner_functions -          rename(90) - Function rename: Resume-Template-Beige-Retro
+2023-07-03 17:34:20,741 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,753 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Resume-Template-Burgundy-Shadows.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,754 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,754 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Resume-Template-Burgundy-Shadows from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,754 - [INFO] - cleaner_functions -          rename(90) - Function rename: Resume-Template-Burgundy-Shadows
+2023-07-03 17:34:20,756 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,769 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: Shop_Assistant_CV_template.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,770 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,770 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: Shop_Assistant_CV_template from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,770 - [INFO] - cleaner_functions -          rename(90) - Function rename: Shop_Assistant_CV_template
+2023-07-03 17:34:20,772 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,785 - [INFO] - cleaner_functions -    process_file(43) - Function process_file: СV.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,786 - [INFO] - cleaner_functions -     handle_func(116) - Function handle_func: docx
+2023-07-03 17:34:20,786 - [INFO] - cleaner_functions -         move_to(65) - Function move_to: СV from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,786 - [INFO] - cleaner_functions -          rename(90) - Function rename: СV
+2023-07-03 17:34:20,788 - [INFO] - cleaner_functions -    check_folder(102) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 17:34:20,801 - [INFO] - cleaner_functions -     after_check(124) - Sorting was finished. After sorting checking is started
+2023-07-03 17:34:20,801 - [INFO] - cleaner_functions - get_folder_size(131) - getting folder size
+2023-07-03 17:34:20,802 - [INFO] - cleaner_functions - get_folder_size(131) - getting folder size
+2023-07-03 17:34:20,804 - [INFO] - cleaner_functions - get_folder_size(131) - getting folder size
+2023-07-03 17:34:20,805 - [INFO] - cleaner_functions - get_folder_size(131) - getting folder size
+2023-07-03 17:34:20,811 - [INFO] - cleaner_functions - get_folder_size(131) - getting folder size
+2023-07-03 17:34:20,812 - [INFO] - cleaner_functions - get_folder_size(131) - getting folder size
+2023-07-03 17:34:20,813 - [INFO] - cleaner_functions - get_folder_size(131) - getting folder size
+2023-07-03 17:34:20,814 - [INFO] - cleaner_functions - get_folder_size(131) - getting folder size
+2023-07-03 17:34:33,060 - [INFO] - __main__ -            main(57) - Close the assistant!!!
+2023-07-03 20:03:54,453 - [INFO] - __main__ - clean_folder_main(197) - Function clean_folder_main
+2023-07-03 20:03:54,453 - [INFO] - __main__ - greeting_cleaner(191) - Function greeting_cleaner
+2023-07-03 20:03:54,453 - [INFO] - __main__ -    instructions(159) - Function instructions
+2023-07-03 20:04:04,734 - [DEBUG] - __main__ -         handler(179) - handling command: D:\GOIT\trash
+2023-07-03 20:04:04,734 - [INFO] - __main__ -      check_path(150) - Function check_path: D:\GOIT\trash
+2023-07-03 20:04:04,735 - [INFO] - __main__ - make_directories(143) - Function make_directories
+2023-07-03 20:04:04,740 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash
+2023-07-03 20:04:04,748 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\Other
+2023-07-03 20:04:04,750 - [INFO] - __main__ -     after_check(126) - Sorting was finished. After sorting checking is started
+2023-07-03 20:04:04,750 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:04:04,750 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:04:04,751 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:04:04,752 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:04:04,753 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:04:04,754 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:04:04,755 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:05:00,214 - [DEBUG] - __main__ -         handler(179) - handling command: D:\GOIT\trash
+2023-07-03 20:05:00,214 - [INFO] - __main__ -      check_path(150) - Function check_path: D:\GOIT\trash
+2023-07-03 20:05:00,215 - [INFO] - __main__ - make_directories(143) - Function make_directories
+2023-07-03 20:05:00,220 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash
+2023-07-03 20:05:00,221 - [INFO] - __main__ -    process_file(45) - Function process_file: 2021-08-27_-_Worker_and_Temporary_Worker.csv from D:\GOIT\trash
+2023-07-03 20:05:00,221 - [INFO] - __main__ -     handle_func(118) - Function handle_func: csv
+2023-07-03 20:05:00,221 - [INFO] - __main__ -         move_to(67) - Function move_to: 2021-08-27_-_Worker_and_Temporary_Worker from D:\GOIT\trash
+2023-07-03 20:05:00,221 - [INFO] - __main__ -          rename(92) - Function rename: 2021-08-27_-_Worker_and_Temporary_Worker
+2023-07-03 20:05:00,223 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash
+2023-07-03 20:05:00,238 - [INFO] - __main__ -    process_file(45) - Function process_file: BS8888-2011-Engineering drawing.pdf from D:\GOIT\trash
+2023-07-03 20:05:00,238 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,238 - [INFO] - __main__ -         move_to(67) - Function move_to: BS8888-2011-Engineering drawing from D:\GOIT\trash
+2023-07-03 20:05:00,238 - [INFO] - __main__ -          rename(92) - Function rename: BS8888-2011-Engineering drawing
+2023-07-03 20:05:00,240 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash
+2023-07-03 20:05:00,251 - [INFO] - __main__ -    process_file(45) - Function process_file: bs8888-drafting.pdf from D:\GOIT\trash
+2023-07-03 20:05:00,252 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,252 - [INFO] - __main__ -         move_to(67) - Function move_to: bs8888-drafting from D:\GOIT\trash
+2023-07-03 20:05:00,252 - [INFO] - __main__ -          rename(92) - Function rename: bs8888-drafting
+2023-07-03 20:05:00,253 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash
+2023-07-03 20:05:00,268 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,269 - [INFO] - __main__ -    process_file(45) - Function process_file: Anton Hranovskyi CV pdf.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,269 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,269 - [INFO] - __main__ -         move_to(67) - Function move_to: Anton Hranovskyi CV pdf from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,269 - [INFO] - __main__ -          rename(92) - Function rename: Anton Hranovskyi CV pdf
+2023-07-03 20:05:00,271 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,283 - [INFO] - __main__ -    process_file(45) - Function process_file: Anton Hranovskyi CV.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,283 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,283 - [INFO] - __main__ -         move_to(67) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,283 - [INFO] - __main__ -          rename(92) - Function rename: Anton Hranovskyi CV
+2023-07-03 20:05:00,284 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,299 - [INFO] - __main__ -    process_file(45) - Function process_file: Cover letter .doc from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,299 - [INFO] - __main__ -     handle_func(118) - Function handle_func: doc
+2023-07-03 20:05:00,299 - [INFO] - __main__ -         move_to(67) - Function move_to: Cover letter  from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,299 - [INFO] - __main__ -          rename(92) - Function rename: Cover letter 
+2023-07-03 20:05:00,300 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,315 - [INFO] - __main__ -    process_file(45) - Function process_file: Cover letter edited.doc from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,315 - [INFO] - __main__ -     handle_func(118) - Function handle_func: doc
+2023-07-03 20:05:00,315 - [INFO] - __main__ -         move_to(67) - Function move_to: Cover letter edited from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,315 - [INFO] - __main__ -          rename(92) - Function rename: Cover letter edited
+2023-07-03 20:05:00,317 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,330 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 20:05:00,331 - [INFO] - __main__ -    process_file(45) - Function process_file: Anton Hranovskyi CV.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 20:05:00,331 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:00,331 - [INFO] - __main__ -         move_to(67) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 20:05:00,331 - [INFO] - __main__ -          rename(92) - Function rename: Anton Hranovskyi CV
+2023-07-03 20:05:00,333 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 20:05:00,345 - [INFO] - __main__ -    process_file(45) - Function process_file: Anton Hranovskyi CV.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 20:05:00,345 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,346 - [INFO] - __main__ -         move_to(67) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 20:05:00,346 - [INFO] - __main__ -          rename(92) - Function rename: Anton Hranovskyi CV
+2023-07-03 20:05:00,349 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\FLSmidth
+2023-07-03 20:05:00,362 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD
+2023-07-03 20:05:00,363 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,364 - [INFO] - __main__ -    process_file(45) - Function process_file: Anton Hranovskyi CV.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,364 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:00,364 - [INFO] - __main__ -         move_to(67) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,364 - [INFO] - __main__ -          rename(92) - Function rename: Anton Hranovskyi CV
+2023-07-03 20:05:00,367 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,376 - [INFO] - __main__ -    process_file(45) - Function process_file: Anton Hranovskyi CV.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,377 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,377 - [INFO] - __main__ -         move_to(67) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,377 - [INFO] - __main__ -          rename(92) - Function rename: Anton Hranovskyi CV
+2023-07-03 20:05:00,381 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,392 - [INFO] - __main__ -    process_file(45) - Function process_file: CAD draughtsperson job application.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,392 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,393 - [INFO] - __main__ -         move_to(67) - Function move_to: CAD draughtsperson job application from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,393 - [INFO] - __main__ -          rename(92) - Function rename: CAD draughtsperson job application
+2023-07-03 20:05:00,395 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,408 - [INFO] - __main__ -    process_file(45) - Function process_file: For thoughts.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,408 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:00,408 - [INFO] - __main__ -         move_to(67) - Function move_to: For thoughts from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,408 - [INFO] - __main__ -          rename(92) - Function rename: For thoughts
+2023-07-03 20:05:00,410 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,422 - [INFO] - __main__ -    process_file(45) - Function process_file: job application CAD draughtsperson.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,422 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:00,422 - [INFO] - __main__ -         move_to(67) - Function move_to: job application CAD draughtsperson from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,422 - [INFO] - __main__ -          rename(92) - Function rename: job application CAD draughtsperson
+2023-07-03 20:05:00,425 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,438 - [INFO] - __main__ -    process_file(45) - Function process_file: Job application email.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,438 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:00,438 - [INFO] - __main__ -         move_to(67) - Function move_to: Job application email from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,438 - [INFO] - __main__ -          rename(92) - Function rename: Job application email
+2023-07-03 20:05:00,440 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,453 - [INFO] - __main__ -    process_file(45) - Function process_file: Job application form.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,453 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:00,453 - [INFO] - __main__ -         move_to(67) - Function move_to: Job application form from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,453 - [INFO] - __main__ -          rename(92) - Function rename: Job application form
+2023-07-03 20:05:00,455 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\CAD Draughtsperson
+2023-07-03 20:05:00,469 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,470 - [INFO] - __main__ -    process_file(45) - Function process_file: Anton Hranovskyi CV.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,470 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:00,470 - [INFO] - __main__ -         move_to(67) - Function move_to: Anton Hranovskyi CV from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,470 - [INFO] - __main__ -          rename(92) - Function rename: Anton Hranovskyi CV
+2023-07-03 20:05:00,474 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,484 - [INFO] - __main__ -    process_file(45) - Function process_file: Anton Hranovskyi_CV.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,484 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,484 - [INFO] - __main__ -         move_to(67) - Function move_to: Anton Hranovskyi_CV from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,484 - [INFO] - __main__ -          rename(92) - Function rename: Anton Hranovskyi_CV
+2023-07-03 20:05:00,488 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,498 - [INFO] - __main__ -    process_file(45) - Function process_file: Letter to MMD HR Manager.docx from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,498 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:00,498 - [INFO] - __main__ -         move_to(67) - Function move_to: Letter to MMD HR Manager from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,498 - [INFO] - __main__ -          rename(92) - Function rename: Letter to MMD HR Manager
+2023-07-03 20:05:00,501 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,514 - [INFO] - __main__ -    process_file(45) - Function process_file: Letter to MMD HR Manager.pdf from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,514 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,514 - [INFO] - __main__ -         move_to(67) - Function move_to: Letter to MMD HR Manager from D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,514 - [INFO] - __main__ -          rename(92) - Function rename: Letter to MMD HR Manager
+2023-07-03 20:05:00,516 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest\MMD\Letter of interest
+2023-07-03 20:05:00,528 - [INFO] - __main__ -    process_file(45) - Function process_file: _signature_.png from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,528 - [INFO] - __main__ -     handle_func(118) - Function handle_func: png
+2023-07-03 20:05:00,528 - [INFO] - __main__ -         move_to(67) - Function move_to: _signature_ from D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,528 - [INFO] - __main__ -          rename(92) - Function rename: _signature_
+2023-07-03 20:05:00,530 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\CV, Cover letter, letter of interest
+2023-07-03 20:05:00,545 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\English
+2023-07-03 20:05:00,546 - [INFO] - __main__ -    process_file(45) - Function process_file: 6-Week-Study-Plan-New-convert.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:00,546 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,546 - [INFO] - __main__ -         move_to(67) - Function move_to: 6-Week-Study-Plan-New-convert from D:\GOIT\trash\English
+2023-07-03 20:05:00,546 - [INFO] - __main__ -          rename(92) - Function rename: 6-Week-Study-Plan-New-convert
+2023-07-03 20:05:00,547 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:00,559 - [INFO] - __main__ -    process_file(45) - Function process_file: Course_Planner.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:00,559 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,559 - [INFO] - __main__ -         move_to(67) - Function move_to: Course_Planner from D:\GOIT\trash\English
+2023-07-03 20:05:00,559 - [INFO] - __main__ -          rename(92) - Function rename: Course_Planner
+2023-07-03 20:05:00,561 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:00,575 - [INFO] - __main__ -    process_file(45) - Function process_file: Ielts General Training Reading 2021 (superingenious.com).pdf from D:\GOIT\trash\English
+2023-07-03 20:05:00,575 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,575 - [INFO] - __main__ -         move_to(67) - Function move_to: Ielts General Training Reading 2021 (superingenious.com) from D:\GOIT\trash\English
+2023-07-03 20:05:00,575 - [INFO] - __main__ -          rename(92) - Function rename: Ielts General Training Reading 2021 (superingenious.com)
+2023-07-03 20:05:00,577 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:00,589 - [INFO] - __main__ -    process_file(45) - Function process_file: IELTS_Advantage_VIP_Study_Plan.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:00,589 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,589 - [INFO] - __main__ -         move_to(67) - Function move_to: IELTS_Advantage_VIP_Study_Plan from D:\GOIT\trash\English
+2023-07-03 20:05:00,589 - [INFO] - __main__ -          rename(92) - Function rename: IELTS_Advantage_VIP_Study_Plan
+2023-07-03 20:05:00,591 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:00,605 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening-eBook-Final.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:00,605 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,605 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening-eBook-Final from D:\GOIT\trash\English
+2023-07-03 20:05:00,605 - [INFO] - __main__ -          rename(92) - Function rename: Listening-eBook-Final
+2023-07-03 20:05:00,607 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:00,620 - [INFO] - __main__ -    process_file(45) - Function process_file: Part_1_Practice_Questions.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:00,620 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,620 - [INFO] - __main__ -         move_to(67) - Function move_to: Part_1_Practice_Questions from D:\GOIT\trash\English
+2023-07-03 20:05:00,621 - [INFO] - __main__ -          rename(92) - Function rename: Part_1_Practice_Questions
+2023-07-03 20:05:00,622 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:00,636 - [INFO] - __main__ -    process_file(45) - Function process_file: Part_2_3_Practice_Questions.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:00,636 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,636 - [INFO] - __main__ -         move_to(67) - Function move_to: Part_2_3_Practice_Questions from D:\GOIT\trash\English
+2023-07-03 20:05:00,636 - [INFO] - __main__ -          rename(92) - Function rename: Part_2_3_Practice_Questions
+2023-07-03 20:05:00,638 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:00,650 - [INFO] - __main__ -    process_file(45) - Function process_file: Pre-Test-Checklist_July_18.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:00,650 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,650 - [INFO] - __main__ -         move_to(67) - Function move_to: Pre-Test-Checklist_July_18 from D:\GOIT\trash\English
+2023-07-03 20:05:00,651 - [INFO] - __main__ -          rename(92) - Function rename: Pre-Test-Checklist_July_18
+2023-07-03 20:05:00,653 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:00,665 - [INFO] - __main__ -    process_file(45) - Function process_file: Progress-Checklist_UPDATED_.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:00,665 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,665 - [INFO] - __main__ -         move_to(67) - Function move_to: Progress-Checklist_UPDATED_ from D:\GOIT\trash\English
+2023-07-03 20:05:00,665 - [INFO] - __main__ -          rename(92) - Function rename: Progress-Checklist_UPDATED_
+2023-07-03 20:05:00,667 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:00,682 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,683 - [INFO] - __main__ -    process_file(45) - Function process_file: 29. 30 Advanced Verbs.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,683 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,683 - [INFO] - __main__ -         move_to(67) - Function move_to: 29. 30 Advanced Verbs from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,683 - [INFO] - __main__ -          rename(92) - Function rename: 29. 30 Advanced Verbs
+2023-07-03 20:05:00,685 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,697 - [INFO] - __main__ -    process_file(45) - Function process_file: 30. Learn Spoken English.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,697 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,698 - [INFO] - __main__ -         move_to(67) - Function move_to: 30. Learn Spoken English from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,698 - [INFO] - __main__ -          rename(92) - Function rename: 30. Learn Spoken English
+2023-07-03 20:05:00,699 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,713 - [INFO] - __main__ -    process_file(45) - Function process_file: 31. 50 Advanced Adjectives.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,713 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,713 - [INFO] - __main__ -         move_to(67) - Function move_to: 31. 50 Advanced Adjectives from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,713 - [INFO] - __main__ -          rename(92) - Function rename: 31. 50 Advanced Adjectives
+2023-07-03 20:05:00,715 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,729 - [INFO] - __main__ -    process_file(45) - Function process_file: 45. Native Pronunciation Tricks.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,729 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,730 - [INFO] - __main__ -         move_to(67) - Function move_to: 45. Native Pronunciation Tricks from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,730 - [INFO] - __main__ -          rename(92) - Function rename: 45. Native Pronunciation Tricks
+2023-07-03 20:05:00,732 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,745 - [INFO] - __main__ -    process_file(45) - Function process_file: Advanced English.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,745 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,745 - [INFO] - __main__ -         move_to(67) - Function move_to: Advanced English from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,746 - [INFO] - __main__ -          rename(92) - Function rename: Advanced English
+2023-07-03 20:05:00,747 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,760 - [INFO] - __main__ -    process_file(45) - Function process_file: Answer_Sheet.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,760 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,760 - [INFO] - __main__ -         move_to(67) - Function move_to: Answer_Sheet from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,760 - [INFO] - __main__ -          rename(92) - Function rename: Answer_Sheet
+2023-07-03 20:05:00,762 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,777 - [INFO] - __main__ -    process_file(45) - Function process_file: English_for_Business_Success_v_1_0.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,778 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,778 - [INFO] - __main__ -         move_to(67) - Function move_to: English_for_Business_Success_v_1_0 from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,778 - [INFO] - __main__ -          rename(92) - Function rename: English_for_Business_Success_v_1_0
+2023-07-03 20:05:00,780 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,792 - [INFO] - __main__ -    process_file(45) - Function process_file: Form_and_Note_Completion_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,792 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:00,793 - [INFO] - __main__ -         move_to(67) - Function move_to: Form_and_Note_Completion_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,793 - [INFO] - __main__ -          rename(92) - Function rename: Form_and_Note_Completion_Audio
+2023-07-03 20:05:00,794 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,808 - [INFO] - __main__ -    process_file(45) - Function process_file: Form_and_Note_Completion_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,808 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,808 - [INFO] - __main__ -         move_to(67) - Function move_to: Form_and_Note_Completion_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,808 - [INFO] - __main__ -          rename(92) - Function rename: Form_and_Note_Completion_Practice_Questions_1_
+2023-07-03 20:05:00,810 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,823 - [INFO] - __main__ -    process_file(45) - Function process_file: General-IELTS-60-Day-Study-Plan.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,823 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,823 - [INFO] - __main__ -         move_to(67) - Function move_to: General-IELTS-60-Day-Study-Plan from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,824 - [INFO] - __main__ -          rename(92) - Function rename: General-IELTS-60-Day-Study-Plan
+2023-07-03 20:05:00,825 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,839 - [INFO] - __main__ -    process_file(45) - Function process_file: General-IELTS-Course-Book-1-d7b18e9db18c3946ae9c18a3929f73cb.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,839 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,839 - [INFO] - __main__ -         move_to(67) - Function move_to: General-IELTS-Course-Book-1-d7b18e9db18c3946ae9c18a3929f73cb from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,839 - [INFO] - __main__ -          rename(92) - Function rename: General-IELTS-Course-Book-1-d7b18e9db18c3946ae9c18a3929f73cb
+2023-07-03 20:05:00,841 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,855 - [INFO] - __main__ -    process_file(45) - Function process_file: General-IELTS-Course-Book-2-d7b18e9db18c3946ae9c18a3929f73cb.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,855 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,856 - [INFO] - __main__ -         move_to(67) - Function move_to: General-IELTS-Course-Book-2-d7b18e9db18c3946ae9c18a3929f73cb from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,856 - [INFO] - __main__ -          rename(92) - Function rename: General-IELTS-Course-Book-2-d7b18e9db18c3946ae9c18a3929f73cb
+2023-07-03 20:05:00,857 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,870 - [INFO] - __main__ -    process_file(45) - Function process_file: General-IELTS-Student-Workbook-d7b18e9db18c3946ae9c18a3929f73cb.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,870 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,871 - [INFO] - __main__ -         move_to(67) - Function move_to: General-IELTS-Student-Workbook-d7b18e9db18c3946ae9c18a3929f73cb from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,871 - [INFO] - __main__ -          rename(92) - Function rename: General-IELTS-Student-Workbook-d7b18e9db18c3946ae9c18a3929f73cb
+2023-07-03 20:05:00,872 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,887 - [INFO] - __main__ -    process_file(45) - Function process_file: IELTS-Advantage-VIP-Study-Plan.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,887 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,887 - [INFO] - __main__ -         move_to(67) - Function move_to: IELTS-Advantage-VIP-Study-Plan from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,887 - [INFO] - __main__ -          rename(92) - Function rename: IELTS-Advantage-VIP-Study-Plan
+2023-07-03 20:05:00,889 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,902 - [INFO] - __main__ -    process_file(45) - Function process_file: Labeling_a_Map_or_Plan_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,902 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:00,902 - [INFO] - __main__ -         move_to(67) - Function move_to: Labeling_a_Map_or_Plan_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,902 - [INFO] - __main__ -          rename(92) - Function rename: Labeling_a_Map_or_Plan_Audio
+2023-07-03 20:05:00,904 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,919 - [INFO] - __main__ -    process_file(45) - Function process_file: Labeling_a_Map_or_Plan_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,919 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,919 - [INFO] - __main__ -         move_to(67) - Function move_to: Labeling_a_Map_or_Plan_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,919 - [INFO] - __main__ -          rename(92) - Function rename: Labeling_a_Map_or_Plan_Practice_Questions_1_
+2023-07-03 20:05:00,921 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,934 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening-eBook (1).pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,934 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,934 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening-eBook (1) from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,934 - [INFO] - __main__ -          rename(92) - Function rename: Listening-eBook (1)
+2023-07-03 20:05:00,936 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,949 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening-eBook.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,949 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,950 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening-eBook from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,950 - [INFO] - __main__ -          rename(92) - Function rename: Listening-eBook
+2023-07-03 20:05:00,951 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,965 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Academy_Study_Planner.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,965 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,965 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Academy_Study_Planner from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,965 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Academy_Study_Planner
+2023-07-03 20:05:00,966 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,981 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_A.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,981 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,981 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_A from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,981 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_A
+2023-07-03 20:05:00,983 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,995 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_A_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,996 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:00,996 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_A_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,996 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_A_Audio
+2023-07-03 20:05:00,998 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,999 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_B.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,999 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:00,999 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_B from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:00,999 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_B
+2023-07-03 20:05:01,002 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,012 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_B_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,012 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:01,012 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_B_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,012 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_B_Audio
+2023-07-03 20:05:01,014 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,026 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_C.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,026 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,026 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_C from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,026 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_C
+2023-07-03 20:05:01,028 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,041 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_C_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,042 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:01,042 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_C_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,042 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_C_Audio
+2023-07-03 20:05:01,044 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,057 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_D_2_ (1).pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,057 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,057 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_D_2_ (1) from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,057 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_D_2_ (1)
+2023-07-03 20:05:01,059 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,073 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_D_2_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,073 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,073 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_D_2_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,073 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_D_2_
+2023-07-03 20:05:01,075 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,089 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_D_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,089 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:01,089 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_D_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,089 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_D_Audio
+2023-07-03 20:05:01,091 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,104 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_E_2_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,104 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,105 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_E_2_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,105 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_E_2_
+2023-07-03 20:05:01,106 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,120 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_E_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,120 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:01,120 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_E_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,120 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_E_Audio
+2023-07-03 20:05:01,121 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,136 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_F.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,136 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,136 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_F from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,136 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_F
+2023-07-03 20:05:01,138 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,152 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_F_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,152 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:01,152 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_F_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,152 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_F_Audio
+2023-07-03 20:05:01,154 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,166 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_G_2_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,167 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,167 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_G_2_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,167 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_G_2_
+2023-07-03 20:05:01,168 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,183 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_G_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,183 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:01,183 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_G_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,183 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_G_Audio
+2023-07-03 20:05:01,185 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,198 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_H_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,198 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,198 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_H_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,198 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_H_1_
+2023-07-03 20:05:01,199 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,212 - [INFO] - __main__ -    process_file(45) - Function process_file: Listening_Test_H_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,213 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:01,213 - [INFO] - __main__ -         move_to(67) - Function move_to: Listening_Test_H_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,213 - [INFO] - __main__ -          rename(92) - Function rename: Listening_Test_H_Audio
+2023-07-03 20:05:01,215 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,229 - [INFO] - __main__ -    process_file(45) - Function process_file: Matching_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,229 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:01,229 - [INFO] - __main__ -         move_to(67) - Function move_to: Matching_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,229 - [INFO] - __main__ -          rename(92) - Function rename: Matching_Audio
+2023-07-03 20:05:01,230 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,244 - [INFO] - __main__ -    process_file(45) - Function process_file: Matching_Practice_Questions_1_ (1).pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,245 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,245 - [INFO] - __main__ -         move_to(67) - Function move_to: Matching_Practice_Questions_1_ (1) from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,245 - [INFO] - __main__ -          rename(92) - Function rename: Matching_Practice_Questions_1_ (1)
+2023-07-03 20:05:01,246 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,260 - [INFO] - __main__ -    process_file(45) - Function process_file: Matching_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,260 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,260 - [INFO] - __main__ -         move_to(67) - Function move_to: Matching_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,260 - [INFO] - __main__ -          rename(92) - Function rename: Matching_Practice_Questions_1_
+2023-07-03 20:05:01,261 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,275 - [INFO] - __main__ -    process_file(45) - Function process_file: Murphy R. English Grammar in Use. 2012 4-ed..pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,275 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,276 - [INFO] - __main__ -         move_to(67) - Function move_to: Murphy R. English Grammar in Use. 2012 4-ed. from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,276 - [INFO] - __main__ -          rename(92) - Function rename: Murphy R. English Grammar in Use. 2012 4-ed.
+2023-07-03 20:05:01,277 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,291 - [INFO] - __main__ -    process_file(45) - Function process_file: OPG Intermediate SB.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,291 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,292 - [INFO] - __main__ -         move_to(67) - Function move_to: OPG Intermediate SB from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,292 - [INFO] - __main__ -          rename(92) - Function rename: OPG Intermediate SB
+2023-07-03 20:05:01,293 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,306 - [INFO] - __main__ -    process_file(45) - Function process_file: Reading-eBook.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,306 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,307 - [INFO] - __main__ -         move_to(67) - Function move_to: Reading-eBook from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,307 - [INFO] - __main__ -          rename(92) - Function rename: Reading-eBook
+2023-07-03 20:05:01,308 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,322 - [INFO] - __main__ -    process_file(45) - Function process_file: Sentence_Completion_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,322 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,322 - [INFO] - __main__ -         move_to(67) - Function move_to: Sentence_Completion_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,322 - [INFO] - __main__ -          rename(92) - Function rename: Sentence_Completion_Practice_Questions_1_
+2023-07-03 20:05:01,324 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,338 - [INFO] - __main__ -    process_file(45) - Function process_file: Short_Answer_Audio.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,338 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:01,339 - [INFO] - __main__ -         move_to(67) - Function move_to: Short_Answer_Audio from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,339 - [INFO] - __main__ -          rename(92) - Function rename: Short_Answer_Audio
+2023-07-03 20:05:01,339 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,353 - [INFO] - __main__ -    process_file(45) - Function process_file: Short_Answer_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,354 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,354 - [INFO] - __main__ -         move_to(67) - Function move_to: Short_Answer_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,354 - [INFO] - __main__ -          rename(92) - Function rename: Short_Answer_Practice_Questions_1_
+2023-07-03 20:05:01,356 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,370 - [INFO] - __main__ -    process_file(45) - Function process_file: Speaking-Progress-Checklist.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,370 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,370 - [INFO] - __main__ -         move_to(67) - Function move_to: Speaking-Progress-Checklist from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,370 - [INFO] - __main__ -          rename(92) - Function rename: Speaking-Progress-Checklist
+2023-07-03 20:05:01,373 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,385 - [INFO] - __main__ -    process_file(45) - Function process_file: SPEAKINGACADEMYMODULE4.docx.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,385 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,385 - [INFO] - __main__ -         move_to(67) - Function move_to: SPEAKINGACADEMYMODULE4.docx from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,385 - [INFO] - __main__ -          rename(92) - Function rename: SPEAKINGACADEMYMODULE4.docx
+2023-07-03 20:05:01,387 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,400 - [INFO] - __main__ -    process_file(45) - Function process_file: SPEAKING_ACADEMY_MODULE_7.docx_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,400 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,400 - [INFO] - __main__ -         move_to(67) - Function move_to: SPEAKING_ACADEMY_MODULE_7.docx_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,400 - [INFO] - __main__ -          rename(92) - Function rename: SPEAKING_ACADEMY_MODULE_7.docx_1_
+2023-07-03 20:05:01,402 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,415 - [INFO] - __main__ -    process_file(45) - Function process_file: Summary_Completion_Audio_1_.m4a from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,416 - [INFO] - __main__ -     handle_func(118) - Function handle_func: m4a
+2023-07-03 20:05:01,416 - [INFO] - __main__ -         move_to(67) - Function move_to: Summary_Completion_Audio_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,416 - [INFO] - __main__ -          rename(92) - Function rename: Summary_Completion_Audio_1_
+2023-07-03 20:05:01,417 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,431 - [INFO] - __main__ -    process_file(45) - Function process_file: Summary_Completion_Practice_Questions_2_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,432 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,432 - [INFO] - __main__ -         move_to(67) - Function move_to: Summary_Completion_Practice_Questions_2_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,432 - [INFO] - __main__ -          rename(92) - Function rename: Summary_Completion_Practice_Questions_2_
+2023-07-03 20:05:01,433 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,447 - [INFO] - __main__ -    process_file(45) - Function process_file: Table_Completion_Practice_Questions_1_.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,447 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,447 - [INFO] - __main__ -         move_to(67) - Function move_to: Table_Completion_Practice_Questions_1_ from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,447 - [INFO] - __main__ -          rename(92) - Function rename: Table_Completion_Practice_Questions_1_
+2023-07-03 20:05:01,449 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,462 - [INFO] - __main__ -    process_file(45) - Function process_file: Task_2_-_Module_10.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,462 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,462 - [INFO] - __main__ -         move_to(67) - Function move_to: Task_2_-_Module_10 from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,463 - [INFO] - __main__ -          rename(92) - Function rename: Task_2_-_Module_10
+2023-07-03 20:05:01,464 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,477 - [INFO] - __main__ -    process_file(45) - Function process_file: Task_2_-_Module_11.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,477 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,478 - [INFO] - __main__ -         move_to(67) - Function move_to: Task_2_-_Module_11 from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,478 - [INFO] - __main__ -          rename(92) - Function rename: Task_2_-_Module_11
+2023-07-03 20:05:01,479 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,494 - [INFO] - __main__ -    process_file(45) - Function process_file: Task_2_-_Module_6.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,494 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,494 - [INFO] - __main__ -         move_to(67) - Function move_to: Task_2_-_Module_6 from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,494 - [INFO] - __main__ -          rename(92) - Function rename: Task_2_-_Module_6
+2023-07-03 20:05:01,496 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,510 - [INFO] - __main__ -    process_file(45) - Function process_file: Task_2_-_Module_7.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,510 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,510 - [INFO] - __main__ -         move_to(67) - Function move_to: Task_2_-_Module_7 from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,510 - [INFO] - __main__ -          rename(92) - Function rename: Task_2_-_Module_7
+2023-07-03 20:05:01,512 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,524 - [INFO] - __main__ -    process_file(45) - Function process_file: Task_2_-_Module_8.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,524 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,524 - [INFO] - __main__ -         move_to(67) - Function move_to: Task_2_-_Module_8 from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,524 - [INFO] - __main__ -          rename(92) - Function rename: Task_2_-_Module_8
+2023-07-03 20:05:01,526 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,540 - [INFO] - __main__ -    process_file(45) - Function process_file: Task_2_-_Module_9.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,540 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,541 - [INFO] - __main__ -         move_to(67) - Function move_to: Task_2_-_Module_9 from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,541 - [INFO] - __main__ -          rename(92) - Function rename: Task_2_-_Module_9
+2023-07-03 20:05:01,543 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,556 - [INFO] - __main__ -    process_file(45) - Function process_file: Track 01.mp3 from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,556 - [INFO] - __main__ -     handle_func(118) - Function handle_func: mp3
+2023-07-03 20:05:01,556 - [INFO] - __main__ -         move_to(67) - Function move_to: Track 01 from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,556 - [INFO] - __main__ -          rename(92) - Function rename: Track 01
+2023-07-03 20:05:01,558 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,572 - [INFO] - __main__ -    process_file(45) - Function process_file: Vocabulary-Improvement-Plan-1.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,572 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,572 - [INFO] - __main__ -         move_to(67) - Function move_to: Vocabulary-Improvement-Plan-1 from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,572 - [INFO] - __main__ -          rename(92) - Function rename: Vocabulary-Improvement-Plan-1
+2023-07-03 20:05:01,574 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,588 - [INFO] - __main__ -    process_file(45) - Function process_file: Vocabulary-Improvement-Plan.pdf from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,588 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,588 - [INFO] - __main__ -         move_to(67) - Function move_to: Vocabulary-Improvement-Plan from D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,588 - [INFO] - __main__ -          rename(92) - Function rename: Vocabulary-Improvement-Plan
+2023-07-03 20:05:01,592 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English\R&L
+2023-07-03 20:05:01,604 - [INFO] - __main__ -    process_file(45) - Function process_file: Reading-eBook-Final.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:01,604 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,604 - [INFO] - __main__ -         move_to(67) - Function move_to: Reading-eBook-Final from D:\GOIT\trash\English
+2023-07-03 20:05:01,605 - [INFO] - __main__ -          rename(92) - Function rename: Reading-eBook-Final
+2023-07-03 20:05:01,606 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:01,620 - [INFO] - __main__ -    process_file(45) - Function process_file: Speaking-Progress-Checklist.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:01,620 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,620 - [INFO] - __main__ -         move_to(67) - Function move_to: Speaking-Progress-Checklist from D:\GOIT\trash\English
+2023-07-03 20:05:01,620 - [INFO] - __main__ -          rename(92) - Function rename: Speaking-Progress-Checklist
+2023-07-03 20:05:01,623 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:01,635 - [INFO] - __main__ -    process_file(45) - Function process_file: Speaking_Cohesive_Devices.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:01,635 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,635 - [INFO] - __main__ -         move_to(67) - Function move_to: Speaking_Cohesive_Devices from D:\GOIT\trash\English
+2023-07-03 20:05:01,635 - [INFO] - __main__ -          rename(92) - Function rename: Speaking_Cohesive_Devices
+2023-07-03 20:05:01,637 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:01,651 - [INFO] - __main__ -    process_file(45) - Function process_file: Vocabulary-Improvement-Plan.pdf from D:\GOIT\trash\English
+2023-07-03 20:05:01,651 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,651 - [INFO] - __main__ -         move_to(67) - Function move_to: Vocabulary-Improvement-Plan from D:\GOIT\trash\English
+2023-07-03 20:05:01,651 - [INFO] - __main__ -          rename(92) - Function rename: Vocabulary-Improvement-Plan
+2023-07-03 20:05:01,654 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:01,665 - [INFO] - __main__ -    process_file(45) - Function process_file: темы спикинг.docx from D:\GOIT\trash\English
+2023-07-03 20:05:01,666 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:01,666 - [INFO] - __main__ -         move_to(67) - Function move_to: темы спикинг from D:\GOIT\trash\English
+2023-07-03 20:05:01,666 - [INFO] - __main__ -          rename(92) - Function rename: темы спикинг
+2023-07-03 20:05:01,668 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\English
+2023-07-03 20:05:01,682 - [INFO] - __main__ -    process_file(45) - Function process_file: EnglishScore_Certificate.pdf from D:\GOIT\trash
+2023-07-03 20:05:01,682 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,682 - [INFO] - __main__ -         move_to(67) - Function move_to: EnglishScore_Certificate from D:\GOIT\trash
+2023-07-03 20:05:01,682 - [INFO] - __main__ -          rename(92) - Function rename: EnglishScore_Certificate
+2023-07-03 20:05:01,684 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash
+2023-07-03 20:05:01,698 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\Linkedin
+2023-07-03 20:05:01,699 - [INFO] - __main__ -    process_file(45) - Function process_file: About myself.docx from D:\GOIT\trash\Linkedin
+2023-07-03 20:05:01,699 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:01,699 - [INFO] - __main__ -         move_to(67) - Function move_to: About myself from D:\GOIT\trash\Linkedin
+2023-07-03 20:05:01,699 - [INFO] - __main__ -          rename(92) - Function rename: About myself
+2023-07-03 20:05:01,700 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Linkedin
+2023-07-03 20:05:01,713 - [INFO] - __main__ -    process_file(45) - Function process_file: Description....docx from D:\GOIT\trash\Linkedin
+2023-07-03 20:05:01,713 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:01,713 - [INFO] - __main__ -         move_to(67) - Function move_to: Description... from D:\GOIT\trash\Linkedin
+2023-07-03 20:05:01,713 - [INFO] - __main__ -          rename(92) - Function rename: Description...
+2023-07-03 20:05:01,715 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Linkedin
+2023-07-03 20:05:01,730 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\Other
+2023-07-03 20:05:01,731 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,732 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,733 - [INFO] - __main__ -    process_file(45) - Function process_file: 1.jpg from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,733 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,733 - [INFO] - __main__ -         move_to(67) - Function move_to: 1 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,733 - [INFO] - __main__ -          rename(92) - Function rename: 1
+2023-07-03 20:05:01,734 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,745 - [INFO] - __main__ -    process_file(45) - Function process_file: 2.jpg from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,745 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,745 - [INFO] - __main__ -         move_to(67) - Function move_to: 2 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,745 - [INFO] - __main__ -          rename(92) - Function rename: 2
+2023-07-03 20:05:01,747 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,760 - [INFO] - __main__ -    process_file(45) - Function process_file: 3.jpg from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,760 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,761 - [INFO] - __main__ -         move_to(67) - Function move_to: 3 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,761 - [INFO] - __main__ -          rename(92) - Function rename: 3
+2023-07-03 20:05:01,762 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,776 - [INFO] - __main__ -    process_file(45) - Function process_file: 4.jpg from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,776 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,776 - [INFO] - __main__ -         move_to(67) - Function move_to: 4 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,776 - [INFO] - __main__ -          rename(92) - Function rename: 4
+2023-07-03 20:05:01,778 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,792 - [INFO] - __main__ -    process_file(45) - Function process_file: 5.jpg from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,793 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,793 - [INFO] - __main__ -         move_to(67) - Function move_to: 5 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,793 - [INFO] - __main__ -          rename(92) - Function rename: 5
+2023-07-03 20:05:01,794 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,808 - [INFO] - __main__ -    process_file(45) - Function process_file: Рахунок по електроенергії за період з 01.01.2023 по 31.01.2023.pdf from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,808 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,808 - [INFO] - __main__ -         move_to(67) - Function move_to: Рахунок по електроенергії за період з 01.01.2023 по 31.01.2023 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,808 - [INFO] - __main__ -          rename(92) - Function rename: Рахунок по електроенергії за період з 01.01.2023 по 31.01.2023
+2023-07-03 20:05:01,810 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,822 - [INFO] - __main__ -    process_file(45) - Function process_file: Рахунок по електроенергії за період з 01.02.2023 по 28.02.2023.pdf from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,823 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,823 - [INFO] - __main__ -         move_to(67) - Function move_to: Рахунок по електроенергії за період з 01.02.2023 по 28.02.2023 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,823 - [INFO] - __main__ -          rename(92) - Function rename: Рахунок по електроенергії за період з 01.02.2023 по 28.02.2023
+2023-07-03 20:05:01,825 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,837 - [INFO] - __main__ -    process_file(45) - Function process_file: Рахунок по електроенергії за період з 01.03.2023 по 31.03.2023.pdf from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,837 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,837 - [INFO] - __main__ -         move_to(67) - Function move_to: Рахунок по електроенергії за період з 01.03.2023 по 31.03.2023 from D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,838 - [INFO] - __main__ -          rename(92) - Function rename: Рахунок по електроенергії за період з 01.03.2023 по 31.03.2023
+2023-07-03 20:05:01,840 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents\Moms
+2023-07-03 20:05:01,854 - [INFO] - __main__ -    process_file(45) - Function process_file: payoneer_my_account.png from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,854 - [INFO] - __main__ -     handle_func(118) - Function handle_func: png
+2023-07-03 20:05:01,854 - [INFO] - __main__ -         move_to(67) - Function move_to: payoneer_my_account from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,854 - [INFO] - __main__ -          rename(92) - Function rename: payoneer_my_account
+2023-07-03 20:05:01,857 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,868 - [INFO] - __main__ -    process_file(45) - Function process_file: договор_аренды_1.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,868 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,868 - [INFO] - __main__ -         move_to(67) - Function move_to: договор_аренды_1 from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,868 - [INFO] - __main__ -          rename(92) - Function rename: договор_аренды_1
+2023-07-03 20:05:01,871 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,884 - [INFO] - __main__ -    process_file(45) - Function process_file: догогвор_аренды_2.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,885 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,885 - [INFO] - __main__ -         move_to(67) - Function move_to: догогвор_аренды_2 from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,885 - [INFO] - __main__ -          rename(92) - Function rename: догогвор_аренды_2
+2023-07-03 20:05:01,887 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,900 - [INFO] - __main__ -    process_file(45) - Function process_file: загран_паспорт.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,900 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,900 - [INFO] - __main__ -         move_to(67) - Function move_to: загран_паспорт from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,900 - [INFO] - __main__ -          rename(92) - Function rename: загран_паспорт
+2023-07-03 20:05:01,902 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,916 - [INFO] - __main__ -    process_file(45) - Function process_file: ИНН.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,916 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,916 - [INFO] - __main__ -         move_to(67) - Function move_to: ИНН from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,916 - [INFO] - __main__ -          rename(92) - Function rename: ИНН
+2023-07-03 20:05:01,918 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,931 - [INFO] - __main__ -    process_file(45) - Function process_file: квитанция.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,931 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,932 - [INFO] - __main__ -         move_to(67) - Function move_to: квитанция from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,932 - [INFO] - __main__ -          rename(92) - Function rename: квитанция
+2023-07-03 20:05:01,933 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,947 - [INFO] - __main__ -    process_file(45) - Function process_file: переименованные_улицы.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,948 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,948 - [INFO] - __main__ -         move_to(67) - Function move_to: переименованные_улицы from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,948 - [INFO] - __main__ -          rename(92) - Function rename: переименованные_улицы
+2023-07-03 20:05:01,950 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,963 - [INFO] - __main__ -    process_file(45) - Function process_file: свидетельство о рождении.jpg from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,964 - [INFO] - __main__ -     handle_func(118) - Function handle_func: jpg
+2023-07-03 20:05:01,964 - [INFO] - __main__ -         move_to(67) - Function move_to: свидетельство о рождении from D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,964 - [INFO] - __main__ -          rename(92) - Function rename: свидетельство о рождении
+2023-07-03 20:05:01,965 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Scan of documents
+2023-07-03 20:05:01,980 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:01,981 - [INFO] - __main__ -    process_file(45) - Function process_file: statement of comparability.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:01,981 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,981 - [INFO] - __main__ -         move_to(67) - Function move_to: statement of comparability from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:01,981 - [INFO] - __main__ -          rename(92) - Function rename: statement of comparability
+2023-07-03 20:05:01,983 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:01,993 - [INFO] - __main__ -    process_file(45) - Function process_file: Бакалавр-1-5.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:01,994 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:01,994 - [INFO] - __main__ -         move_to(67) - Function move_to: Бакалавр-1-5 from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:01,994 - [INFO] - __main__ -          rename(92) - Function rename: Бакалавр-1-5
+2023-07-03 20:05:01,996 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,009 - [INFO] - __main__ -    process_file(45) - Function process_file: Бакалавр-6-12.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,009 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:02,010 - [INFO] - __main__ -         move_to(67) - Function move_to: Бакалавр-6-12 from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,010 - [INFO] - __main__ -          rename(92) - Function rename: Бакалавр-6-12
+2023-07-03 20:05:02,012 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,025 - [INFO] - __main__ -    process_file(45) - Function process_file: Грановський.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,025 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:02,025 - [INFO] - __main__ -         move_to(67) - Function move_to: Грановський from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,025 - [INFO] - __main__ -          rename(92) - Function rename: Грановський
+2023-07-03 20:05:02,026 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,039 - [INFO] - __main__ -    process_file(45) - Function process_file: Магистр-1-5.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,041 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:02,041 - [INFO] - __main__ -         move_to(67) - Function move_to: Магистр-1-5 from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,041 - [INFO] - __main__ -          rename(92) - Function rename: Магистр-1-5
+2023-07-03 20:05:02,042 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,055 - [INFO] - __main__ -    process_file(45) - Function process_file: Магистр-6-11.pdf from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,055 - [INFO] - __main__ -     handle_func(118) - Function handle_func: pdf
+2023-07-03 20:05:02,056 - [INFO] - __main__ -         move_to(67) - Function move_to: Магистр-6-11 from D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,056 - [INFO] - __main__ -          rename(92) - Function rename: Магистр-6-11
+2023-07-03 20:05:02,057 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Документы к диплому
+2023-07-03 20:05:02,071 - [INFO] - __main__ - process_directory(29) - Function process_directory: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,072 - [INFO] - __main__ -    process_file(45) - Function process_file: cv-grey-headers-garamond (1).doc from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,072 - [INFO] - __main__ -     handle_func(118) - Function handle_func: doc
+2023-07-03 20:05:02,072 - [INFO] - __main__ -         move_to(67) - Function move_to: cv-grey-headers-garamond (1) from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,072 - [INFO] - __main__ -          rename(92) - Function rename: cv-grey-headers-garamond (1)
+2023-07-03 20:05:02,073 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,086 - [INFO] - __main__ -    process_file(45) - Function process_file: cv-grey-headers-garamond.doc from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,086 - [INFO] - __main__ -     handle_func(118) - Function handle_func: doc
+2023-07-03 20:05:02,087 - [INFO] - __main__ -         move_to(67) - Function move_to: cv-grey-headers-garamond from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,087 - [INFO] - __main__ -          rename(92) - Function rename: cv-grey-headers-garamond
+2023-07-03 20:05:02,088 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,102 - [INFO] - __main__ -    process_file(45) - Function process_file: Fresh-Two-Column-CV-template.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,102 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:02,102 - [INFO] - __main__ -         move_to(67) - Function move_to: Fresh-Two-Column-CV-template from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,102 - [INFO] - __main__ -          rename(92) - Function rename: Fresh-Two-Column-CV-template
+2023-07-03 20:05:02,104 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,117 - [INFO] - __main__ -    process_file(45) - Function process_file: HR_CV_manager.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,117 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:02,118 - [INFO] - __main__ -         move_to(67) - Function move_to: HR_CV_manager from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,118 - [INFO] - __main__ -          rename(92) - Function rename: HR_CV_manager
+2023-07-03 20:05:02,119 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,132 - [INFO] - __main__ -    process_file(45) - Function process_file: Library_Assistant_CV (1).docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,132 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:02,133 - [INFO] - __main__ -         move_to(67) - Function move_to: Library_Assistant_CV (1) from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,133 - [INFO] - __main__ -          rename(92) - Function rename: Library_Assistant_CV (1)
+2023-07-03 20:05:02,134 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,148 - [INFO] - __main__ -    process_file(45) - Function process_file: Library_Assistant_CV.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,148 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:02,148 - [INFO] - __main__ -         move_to(67) - Function move_to: Library_Assistant_CV from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,148 - [INFO] - __main__ -          rename(92) - Function rename: Library_Assistant_CV
+2023-07-03 20:05:02,150 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,164 - [INFO] - __main__ -    process_file(45) - Function process_file: monster-cv-template-customer-service-advisor.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,164 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:02,164 - [INFO] - __main__ -         move_to(67) - Function move_to: monster-cv-template-customer-service-advisor from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,164 - [INFO] - __main__ -          rename(92) - Function rename: monster-cv-template-customer-service-advisor
+2023-07-03 20:05:02,166 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,179 - [INFO] - __main__ -    process_file(45) - Function process_file: Resume-Template-Beige-Retro.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,179 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:02,179 - [INFO] - __main__ -         move_to(67) - Function move_to: Resume-Template-Beige-Retro from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,179 - [INFO] - __main__ -          rename(92) - Function rename: Resume-Template-Beige-Retro
+2023-07-03 20:05:02,181 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,195 - [INFO] - __main__ -    process_file(45) - Function process_file: Resume-Template-Burgundy-Shadows.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,195 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:02,195 - [INFO] - __main__ -         move_to(67) - Function move_to: Resume-Template-Burgundy-Shadows from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,195 - [INFO] - __main__ -          rename(92) - Function rename: Resume-Template-Burgundy-Shadows
+2023-07-03 20:05:02,197 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,209 - [INFO] - __main__ -    process_file(45) - Function process_file: Shop_Assistant_CV_template.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,210 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:02,210 - [INFO] - __main__ -         move_to(67) - Function move_to: Shop_Assistant_CV_template from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,210 - [INFO] - __main__ -          rename(92) - Function rename: Shop_Assistant_CV_template
+2023-07-03 20:05:02,212 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,225 - [INFO] - __main__ -    process_file(45) - Function process_file: СV.docx from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,225 - [INFO] - __main__ -     handle_func(118) - Function handle_func: docx
+2023-07-03 20:05:02,226 - [INFO] - __main__ -         move_to(67) - Function move_to: СV from D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,226 - [INFO] - __main__ -          rename(92) - Function rename: СV
+2023-07-03 20:05:02,228 - [INFO] - __main__ -    check_folder(104) - Function check_folder: D:\GOIT\trash\Примеры-шаблоны
+2023-07-03 20:05:02,240 - [INFO] - __main__ -     after_check(126) - Sorting was finished. After sorting checking is started
+2023-07-03 20:05:02,240 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:05:02,241 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:05:02,243 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:05:02,245 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:05:02,254 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:05:02,255 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:05:02,256 - [INFO] - __main__ - get_folder_size(133) - getting folder size
+2023-07-03 20:05:02,257 - [INFO] - __main__ - get_folder_size(133) - getting folder size
